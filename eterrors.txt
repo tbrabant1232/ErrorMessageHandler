@@ -1,0 +1,5 @@
+Did not see screen (IAS02SHEADER) when expected; cannot continue - saw (IAS02SOVERLAY)
+com.expd.test.transportation.glue.legacy.exceptions.ScreenReplayException
+com.expd.test.transportation.glue.legacy.exceptions.ScreenLoopTimeoutException
+[ic_No] does not match actual value of []
+com.expd.test.transportation.glue.legacy.exceptions.SessionFailureException
