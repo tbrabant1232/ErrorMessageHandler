@@ -64,7 +64,7 @@ def find_json(key, collection):
 
 
 def main():
-    paths = get_json_paths("C:\\Users\\chq-teresab\\Desktop\\links.txt")
+    paths = get_json_paths('Resources\links.txt')
     responses = get_responses(paths, 'file')
     errors = []
     for response in responses:

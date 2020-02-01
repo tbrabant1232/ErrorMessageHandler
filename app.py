@@ -6,8 +6,8 @@ from datetime import date
 
 today = date.today()
 dateStr = today.strftime("%d-%b-%Y")
-csvFile = (dateStr + ".csv")
-inputFile = "C:\\Users\\chq-teresab\\Desktop\\31-Jan-2020.csv"
+csvfile = (dateStr + "raw.csv")
+inputFile = csvfile
 
 df = pd.read_csv(inputFile)
 

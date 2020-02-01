@@ -1,0 +1,5085 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 49,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "Key: Origin - Value: VRN"
+            ],
+            "result": {
+              "duration": 713902,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "store \"Origin\" with value \"{TestBranches|MC EU Branch1}\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Origin",
+                  "offset": 7
+                },
+                {
+                  "val": "{TestBranches|MC EU Branch1}",
+                  "offset": 27
+                }
+              ],
+              "location": "DefinitionsMiscSteps.storeValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Key: Gateway - Value: DEN"
+            ],
+            "result": {
+              "duration": 896326,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "store \"Gateway\" with value \"{TestBranches|MC US Branch1}\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gateway",
+                  "offset": 7
+                },
+                {
+                  "val": "{TestBranches|MC US Branch1}",
+                  "offset": 28
+                }
+              ],
+              "location": "DefinitionsMiscSteps.storeValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Key: Destination - Value: MSY"
+            ],
+            "result": {
+              "duration": 3106589,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "store \"Destination\" with value \"{TestBranches|MC US Branch2}\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Destination",
+                  "offset": 7
+                },
+                {
+                  "val": "{TestBranches|MC US Branch2}",
+                  "offset": 32
+                }
+              ],
+              "location": "DefinitionsMiscSteps.storeValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Key: cfitGateway - Value: DEN"
+            ],
+            "result": {
+              "duration": 1609262,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "store \"cfitGateway\" with value \"{TestBranches|MC US Branch1}\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cfitGateway",
+                  "offset": 7
+                },
+                {
+                  "val": "{TestBranches|MC US Branch1}",
+                  "offset": 32
+                }
+              ],
+              "location": "DefinitionsMiscSteps.storeValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Key: cfitDest - Value: MSY"
+            ],
+            "result": {
+              "duration": 1111795,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "store \"cfitDest\" with value \"{TestBranches|MC US Branch2}\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cfitDest",
+                  "offset": 7
+                },
+                {
+                  "val": "{TestBranches|MC US Branch2}",
+                  "offset": 29
+                }
+              ],
+              "location": "DefinitionsMiscSteps.storeValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Key: Shipper - Value: G6483643"
+            ],
+            "result": {
+              "duration": 8643616,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "store \"Shipper\" with value \"{TestCustomerIds|MC Shipper6}\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shipper",
+                  "offset": 7
+                },
+                {
+                  "val": "{TestCustomerIds|MC Shipper6}",
+                  "offset": 28
+                }
+              ],
+              "location": "DefinitionsMiscSteps.storeValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Key: Consignee - Value: G6483641"
+            ],
+            "result": {
+              "duration": 957516,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "store \"Consignee\" with value \"{TestCustomerIds|MC Consignee1}\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Consignee",
+                  "offset": 7
+                },
+                {
+                  "val": "{TestCustomerIds|MC Consignee1}",
+                  "offset": 30
+                }
+              ],
+              "location": "DefinitionsMiscSteps.storeValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Key: DENShipper - Value: G6483939"
+            ],
+            "result": {
+              "duration": 559162,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "store \"DENShipper\" with value \"{TestCustomerIds|MC Shipper4}\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DENShipper",
+                  "offset": 7
+                },
+                {
+                  "val": "{TestCustomerIds|MC Shipper4}",
+                  "offset": 31
+                }
+              ],
+              "location": "DefinitionsMiscSteps.storeValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Key: SpTrackingNumber2 - Value: CUKENUM00721407"
+            ],
+            "result": {
+              "duration": 1121665594,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "store \"SpTrackingNumber2\" with value \"{SequenceNumber|SpTrackingNumber|CUKENUM|15}\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SpTrackingNumber2",
+                  "offset": 7
+                },
+                {
+                  "val": "{SequenceNumber|SpTrackingNumber|CUKENUM|15}",
+                  "offset": 38
+                }
+              ],
+              "location": "DefinitionsMiscSteps.storeValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Export PID: #S5912\nExport release: 20200300\nExport commit checksum: 60e59eed70c664caa2e372fc6802a4491d149f1a\n"
+            ],
+            "result": {
+              "duration": 53282686425,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "an Export session \"GtwyBrch\" at branch \"{Gateway}\" as \"{TestUsers|Basic Trscn Export Operator}\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GtwyBrch",
+                  "offset": 19
+                },
+                {
+                  "val": "{Gateway}",
+                  "offset": 40
+                },
+                {
+                  "val": "{TestUsers|Basic Trscn Export Operator}",
+                  "offset": 55
+                }
+              ],
+              "location": "DefinitionsExportSteps.obtainAnExportSession(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "[Acquire CFIT] BranchBBB: DEN - Runmode: D - PID: #S9444"
+            ],
+            "result": {
+              "duration": 14413197744,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "a CFIT session \"CfitGatewayBrch\" at branch \"{cfitGateway}\" as TQ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CfitGatewayBrch",
+                  "offset": 16
+                },
+                {
+                  "val": "{cfitGateway}",
+                  "offset": 44
+                }
+              ],
+              "location": "DefinitionsCfitSteps.obtainACfitSession(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "[Acquire CFIT] BranchBBB: MSY - Runmode: D - PID: #S29791"
+            ],
+            "result": {
+              "duration": 14815490647,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "a CFIT session \"CfitDestBrch\" at branch \"{cfitDest}\" as TQ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CfitDestBrch",
+                  "offset": 16
+                },
+                {
+                  "val": "{cfitDest}",
+                  "offset": 41
+                }
+              ],
+              "location": "DefinitionsCfitSteps.obtainACfitSession(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-30T09:15:31.809Z",
+        "before": [
+          {
+            "result": {
+              "duration": 738438,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DefinitionsMiscSteps.doBefore(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 15100568,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DefinitionsDesktopSteps.doBefore(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 368622,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DefinitionsExportSteps.doBefore(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 130200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DefinitionsCfitSteps.doBefore(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1092503,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DefinitionsEifaSteps.doBefore(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 129371,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SoapDataloadSteps.doBeforeSlim(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 152898,
+              "status": "passed"
+            },
+            "match": {
+              "location": "EsbDatabaseSteps.doBefore(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 291737,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ThreadingGlue.doBefore(Scenario)"
+            }
+          }
+        ],
+        "line": 384,
+        "name": "Functional Testing for the Multimode_ICA_ICT correction Scenario",
+        "description": "",
+        "id": "multimode-ica-ict-functional;functional-testing-for-the-multimode-ica-ict-correction-scenario",
+        "after": [
+          {
+            "embeddings": [
+              {
+                "data": "ZG9BZnRlciBmb3I6IFtjb20uZXhwZC50ZXN0LnRyYW5zcG9ydGF0aW9uLmdsdWUubGVnYWN5LmV4cG9ydC5EZWZpbml0aW9uc0V4cG9ydFN0ZXBzXTxicj5UaW1lQ2FwTWludXRlcyB2YWx1ZSB3YXM6IFsyNV08YnI+UGVyZm9ybWluZyBzZXNzaW9uIGNsZWFudXAgb24gWzBdIHNlc3Npb25zPGJyPjxoMz5TZXNzaW9ucyB1c2VkIGluIHRoaXMgc2NlbmFyaW86PC9oMz48c3R5bGU+IC50dGNjLWRhdGEtdGFibGUgdGFibGUgeyBib3JkZXI6IDFweCBzb2xpZCBncmF5OyBib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlOyB0ZXh0LWFsaWduOiBsZWZ0OyB0YWJsZS1sYXlvdXQ6IGF1dG87IHdpZHRoOiAxMDAlOyB3b3JkLWJyZWFrOiBicmVhay1hbGw7IH0gLnR0Y2MtZGF0YS10YWJsZSBjYXB0aW9uIHsgdGV4dC1hbGlnbjogbGVmdDsgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTsgZm9udC13ZWlnaHQ6IGJvbGQgfSAudHRjYy1kYXRhLXRhYmxlIHRib2R5IHsgZm9udC1mYW1pbHk6ICJIZWx2ZXRpY2EgTmV1ZSIsSGVsdmV0aWNhLEFyaWFsLHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogMTRweDsgY29sb3I6ICMzMzM7IH0gLnR0Y2MtZGF0YS10YWJsZSB0cjpudGgtY2hpbGQoZXZlbikgeyBiYWNrZ3JvdW5kLWNvbG9yOiBsaW5lbiB9IC50dGNjLWRhdGEtdGFibGUgdGggeyBib3JkZXI6IDFweCBzb2xpZCBncmF5OyBwYWRkaW5nOiAzcHg7IGJhY2tncm91bmQtY29sb3I6IGxpbmVuIH0gLnR0Y2MtZGF0YS10YWJsZSB0ZCB7IGJvcmRlcjogMXB4IHNvbGlkIGdyYXk7IHBhZGRpbmc6IDNweDsgfSA8L3N0eWxlPjxkaXYgY2xhc3M9InR0Y2MtZGF0YS10YWJsZSI+PHRhYmxlPjx0Ym9keT48dHI+PHRoPkdoZXJraW48YnI+TmFtZTwvdGg+PHRoPlR5cGU8L3RoPjx0aD5FbnY8L3RoPjx0aD5TZXJ2ZXI8L3RoPjx0aD5CcmFuY2g8L3RoPjx0aD5SdW5tb2RlLzxicj5UZW1wbGF0ZTwvdGg+PHRoPlBJRDwvdGg+PHRoPkRlc2t0b3AgU2VydmVyPC90aD48dGg+RUkgU2Vzc2lvbiBJRDwvdGg+PHRoPlRhc2s8YnI+Q29vcmRpbmF0b3I8L3RoPjwvdHI+PC90Ym9keT48dGJvZHk+PHRyPjx0ZD5HdHd5QnJjaDwvdGQ+PHRkPkVYUE9SVDwvdGQ+PHRkPlFBPC90ZD48dGQ+UUExPC90ZD48dGQ+REVOPC90ZD48dGQ+UkVMRUFTRTwvdGQ+PHRkPiNTNTkxMjwvdGQ+PHRkPmh0dHA6Ly9xYTQuY2hxLmVpOjgwMDgvZGVza3RvcC9EZXNrdG9wU2VydmxldDwvdGQ+PHRkPkF3Q0l1YlF5VmVhWnJuNkh3QXVJSlc4R0BodHRwOi8vMTAuMi4xMzcuNDE6ODEyMS9zZXNzaW9uL3NlcnZpY2VzL0VJU2VydmljZVByb3ZpZGVyPC90ZD48dGQ+MTE5NjU0NTU3ODwvdGQ+PC90cj48L3Rib2R5PjwvdGFibGU+PC9kaXY+",
+                "mime_type": "text/html"
+              }
+            ],
+            "result": {
+              "duration": 1268948,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DefinitionsExportSteps.doAfter(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 27198,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SoapDataloadSteps.doAfter(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 15754,
+              "status": "passed"
+            },
+            "match": {
+              "location": "EsbDatabaseSteps.doAfter(Scenario)"
+            }
+          },
+          {
+            "embeddings": [
+              {
+                "data": "ZG9BZnRlciBmb3I6IFtjb20uZXhwZC50ZXN0LnRyYW5zcG9ydGF0aW9uLmdsdWUubGVnYWN5LmNmaXQuRGVmaW5pdGlvbnNDZml0U3RlcHNdPGJyPlRpbWVDYXBNaW51dGVzIHZhbHVlIHdhczogWzI1XTxicj5QZXJmb3JtaW5nIHNlc3Npb24gY2xlYW51cCBvbiBbMV0gc2Vzc2lvbnM8YnI+PGgzPlNlc3Npb25zIHVzZWQgaW4gdGhpcyBzY2VuYXJpbzo8L2gzPjxzdHlsZT4gLnR0Y2MtZGF0YS10YWJsZSB0YWJsZSB7IGJvcmRlcjogMXB4IHNvbGlkIGdyYXk7IGJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7IHRleHQtYWxpZ246IGxlZnQ7IHRhYmxlLWxheW91dDogYXV0bzsgd2lkdGg6IDEwMCU7IHdvcmQtYnJlYWs6IGJyZWFrLWFsbDsgfSAudHRjYy1kYXRhLXRhYmxlIGNhcHRpb24geyB0ZXh0LWFsaWduOiBsZWZ0OyB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlOyBmb250LXdlaWdodDogYm9sZCB9IC50dGNjLWRhdGEtdGFibGUgdGJvZHkgeyBmb250LWZhbWlseTogIkhlbHZldGljYSBOZXVlIixIZWx2ZXRpY2EsQXJpYWwsc2Fucy1zZXJpZjsgZm9udC1zaXplOiAxNHB4OyBjb2xvcjogIzMzMzsgfSAudHRjYy1kYXRhLXRhYmxlIHRyOm50aC1jaGlsZChldmVuKSB7IGJhY2tncm91bmQtY29sb3I6IGxpbmVuIH0gLnR0Y2MtZGF0YS10YWJsZSB0aCB7IGJvcmRlcjogMXB4IHNvbGlkIGdyYXk7IHBhZGRpbmc6IDNweDsgYmFja2dyb3VuZC1jb2xvcjogbGluZW4gfSAudHRjYy1kYXRhLXRhYmxlIHRkIHsgYm9yZGVyOiAxcHggc29saWQgZ3JheTsgcGFkZGluZzogM3B4OyB9IDwvc3R5bGU+PGRpdiBjbGFzcz0idHRjYy1kYXRhLXRhYmxlIj48dGFibGU+PHRib2R5Pjx0cj48dGg+R2hlcmtpbjxicj5OYW1lPC90aD48dGg+VHlwZTwvdGg+PHRoPkVudjwvdGg+PHRoPlNlcnZlcjwvdGg+PHRoPkJyYW5jaDwvdGg+PHRoPlJ1bm1vZGUvPGJyPlRlbXBsYXRlPC90aD48dGg+UElEPC90aD48dGg+RGVza3RvcCBTZXJ2ZXI8L3RoPjx0aD5FSSBTZXNzaW9uIElEPC90aD48dGg+VGFzazxicj5Db29yZGluYXRvcjwvdGg+PC90cj48L3Rib2R5Pjx0Ym9keT48dHI+PHRkPkNmaXRHYXRld2F5QnJjaDwvdGQ+PHRkPkNGSVQ8L3RkPjx0ZD5RQTwvdGQ+PHRkPlFBMTwvdGQ+PHRkPkRFTjwvdGQ+PHRkPkQ8L3RkPjx0ZD4jUzk0NDQ8L3RkPjx0ZD5odHRwOi8vcWE0LmNocS5laTo4MDA4L2Rlc2t0b3AvRGVza3RvcFNlcnZsZXQ8L3RkPjx0ZD4xbGE1d1o5OEpFV1c5S3lGYUhUNmhEWmpAaHR0cDovLzEwLjIuMTM3LjQxOjgxMjEvc2Vzc2lvbi9zZXJ2aWNlcy9FSVNlcnZpY2VQcm92aWRlcjwvdGQ+PHRkPjE2MzcwNzIwMzc8L3RkPjwvdHI+PHRyPjx0ZD5DZml0RGVzdEJyY2g8L3RkPjx0ZD5DRklUPC90ZD48dGQ+UUE8L3RkPjx0ZD5RQTk8L3RkPjx0ZD5NU1k8L3RkPjx0ZD5EPC90ZD48dGQ+I1MyOTc5MTwvdGQ+PHRkPmh0dHA6Ly9xYTQuY2hxLmVpOjgwMDgvZGVza3RvcC9EZXNrdG9wU2VydmxldDwvdGQ+PHRkPkpQTmFKcm95amtVTXhVNFhBdjVLaFEySkBodHRwOi8vMTAuMi4xMzcuNDE6ODEyMS9zZXNzaW9uL3NlcnZpY2VzL0VJU2VydmljZVByb3ZpZGVyPC90ZD48dGQ+MTE3NzU4OTkzNDwvdGQ+PC90cj48L3Rib2R5PjwvdGFibGU+PC9kaXY+",
+                "mime_type": "text/html"
+              }
+            ],
+            "result": {
+              "duration": 4139373,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DefinitionsCfitSteps.doAfter(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 39057,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ThreadingGlue.doAfter(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1545004,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DefinitionsEifaSteps.doAfter(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 19582,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DefinitionsDesktopSteps.doAfter(Scenario)"
+            }
+          },
+          {
+            "embeddings": [
+              {
+                "data": "ZG9BZnRlciBmb3I6IFtjb20uZXhwZC50ZXN0LnRyYW5zcG9ydGF0aW9uLmdsdWUubWlzYy5EZWZpbml0aW9uc01pc2NTdGVwc108YnI+dGltZSB3aGVuIGVuZGluZyB0ZXN0IChKQVZBKToyMDIwLTAxLTMwVDA5OjI4OjAyLjk4N1pbR01UXTxicj5KVk0gUHJvY2VzcyBJRCByZXBvcnRzIGFzOiBbNjY1MTVdIDxicj5UaHJlYWQgSUQgcmVwb3J0cyBhczogW1Rlc3RORy1Qb29sU2VydmljZS0wXSA8YnI+PHN0eWxlPiAudHRjYy1kYXRhLXRhYmxlIHRhYmxlIHsgYm9yZGVyOiAxcHggc29saWQgZ3JheTsgYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTsgdGV4dC1hbGlnbjogbGVmdDsgdGFibGUtbGF5b3V0OiBhdXRvOyB3aWR0aDogMTAwJTsgd29yZC1icmVhazogYnJlYWstYWxsOyB9IC50dGNjLWRhdGEtdGFibGUgY2FwdGlvbiB7IHRleHQtYWxpZ246IGxlZnQ7IHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7IGZvbnQtd2VpZ2h0OiBib2xkIH0gLnR0Y2MtZGF0YS10YWJsZSB0Ym9keSB7IGZvbnQtZmFtaWx5OiAiSGVsdmV0aWNhIE5ldWUiLEhlbHZldGljYSxBcmlhbCxzYW5zLXNlcmlmOyBmb250LXNpemU6IDE0cHg7IGNvbG9yOiAjMzMzOyB9IC50dGNjLWRhdGEtdGFibGUgdHI6bnRoLWNoaWxkKGV2ZW4pIHsgYmFja2dyb3VuZC1jb2xvcjogbGluZW4gfSAudHRjYy1kYXRhLXRhYmxlIHRoIHsgYm9yZGVyOiAxcHggc29saWQgZ3JheTsgcGFkZGluZzogM3B4OyBiYWNrZ3JvdW5kLWNvbG9yOiBsaW5lbiB9IC50dGNjLWRhdGEtdGFibGUgdGQgeyBib3JkZXI6IDFweCBzb2xpZCBncmF5OyBwYWRkaW5nOiAzcHg7IH0gPC9zdHlsZT48YnI+PGRpdiBjbGFzcz0idHRjYy1kYXRhLXRhYmxlIj48dGFibGU+PGNhcHRpb24+Q2FzZSBkYXRhIGNvbnRhaW5lciBkdXJpbmcgdGhpcyBzY2VuYXJpbzwvY2FwdGlvbj48dHI+PHRoPktleTwvdGg+PHRoPlZhbHVlPC90aD48L3RyPjx0Ym9keT48dHI+PHRkIHN0eWxlPSJ3aWR0aDogMjAwcHg7Ij5Db25zaWduZWU8L3RkPjx0ZD5HNjQ4MzY0MTwvdGQ+PC90cj48dHI+PHRkIHN0eWxlPSJ3aWR0aDogMjAwcHg7Ij5Db3JyZWN0aW9uSW52PC90ZD48dGQ+PC90ZD48L3RyPjx0cj48dGQgc3R5bGU9IndpZHRoOiAyMDBweDsiPkRFTlNoaXBwZXI8L3RkPjx0ZD5HNjQ4MzkzOTwvdGQ+PC90cj48dHI+PHRkIHN0eWxlPSJ3aWR0aDogMjAwcHg7Ij5EZXN0aW5hdGlvbjwvdGQ+PHRkPk1TWTwvdGQ+PC90cj48dHI+PHRkIHN0eWxlPSJ3aWR0aDogMjAwcHg7Ij5HYXRld2F5PC90ZD48dGQ+REVOPC90ZD48L3RyPjx0cj48dGQgc3R5bGU9IndpZHRoOiAyMDBweDsiPkd0d3lUcHY8L3RkPjx0ZD5UUFYwMTwvdGQ+PC90cj48dHI+PHRkIHN0eWxlPSJ3aWR0aDogMjAwcHg7Ij5JQ0FOdW08L3RkPjx0ZD5WUk40NDE0NDwvdGQ+PC90cj48dHI+PHRkIHN0eWxlPSJ3aWR0aDogMjAwcHg7Ij5JQ1ROdW08L3RkPjx0ZD5ERU5UMDIyODk3PC90ZD48L3RyPjx0cj48dGQgc3R5bGU9IndpZHRoOiAyMDBweDsiPklOVk51bTM8L3RkPjx0ZD5FMTYwMTc1NDk3PC90ZD48L3RyPjx0cj48dGQgc3R5bGU9IndpZHRoOiAyMDBweDsiPk1BV0JObzE8L3RkPjx0ZD4wMDEtMDAyMzI0ODE8L3RkPjwvdHI+PHRyPjx0ZCBzdHlsZT0id2lkdGg6IDIwMHB4OyI+TUFXQk5vMjwvdGQ+PHRkPlJEV1ktMTEyNzM1MTwvdGQ+PC90cj48dHI+PHRkIHN0eWxlPSJ3aWR0aDogMjAwcHg7Ij5NYXN0ZXJJbnY8L3RkPjx0ZD44MTk2Mzg1MTI8L3RkPjwvdHI+PHRyPjx0ZCBzdHlsZT0id2lkdGg6IDIwMHB4OyI+T3JpZ2luPC90ZD48dGQ+VlJOPC90ZD48L3RyPjx0cj48dGQgc3R5bGU9IndpZHRoOiAyMDBweDsiPk9yaWdpblRwdjwvdGQ+PHRkPlRQVjAxPC90ZD48L3RyPjx0cj48dGQgc3R5bGU9IndpZHRoOiAyMDBweDsiPlNoaXBwZXI8L3RkPjx0ZD5HNjQ4MzY0MzwvdGQ+PC90cj48dHI+PHRkIHN0eWxlPSJ3aWR0aDogMjAwcHg7Ij5TcFRyYWNraW5nTnVtYmVyMjwvdGQ+PHRkPkNVS0VOVU0wMDcyMTQwNzwvdGQ+PC90cj48dHI+PHRkIHN0eWxlPSJ3aWR0aDogMjAwcHg7Ij5jZml0RGVzdDwvdGQ+PHRkPk1TWTwvdGQ+PC90cj48dHI+PHRkIHN0eWxlPSJ3aWR0aDogMjAwcHg7Ij5jZml0R2F0ZXdheTwvdGQ+PHRkPkRFTjwvdGQ+PC90cj48dHI+PHRkIHN0eWxlPSJ3aWR0aDogMjAwcHg7Ij5jb21taXQtY2hlY2tzdW0tREVOLSNTNTkxMjwvdGQ+PHRkPjYwZTU5ZWVkNzBjNjY0Y2FhMmUzNzJmYzY4MDJhNDQ5MWQxNDlmMWE8L3RkPjwvdHI+PHRyPjx0ZCBzdHlsZT0id2lkdGg6IDIwMHB4OyI+cmVsZWFzZS1ERU4tI1M1OTEyPC90ZD48dGQ+MjAyMDAzMDA8L3RkPjwvdHI+PHRyPjx0ZCBzdHlsZT0id2lkdGg6IDIwMHB4OyI+c2hpcFJlZjE8L3RkPjx0ZD40NDEwMTI3NTUwPC90ZD48L3RyPjx0cj48dGQgc3R5bGU9IndpZHRoOiAyMDBweDsiPnNoaXBSZWYyPC90ZD48dGQ+NDQxMDEyNzU1MTwvdGQ+PC90cj48dHI+PHRkIHN0eWxlPSJ3aWR0aDogMjAwcHg7Ij5zaGlwUmVmMzwvdGQ+PHRkPkgxNjAwNDc0Njk8L3RkPjwvdHI+PC90Ym9keT48L3RhYmxlPjwvZGl2Pjxicj48c3R5bGU+IC50dGNjLWRhdGEtdGFibGUgdGFibGUgeyBib3JkZXI6IDFweCBzb2xpZCBncmF5OyBib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlOyB0ZXh0LWFsaWduOiBsZWZ0OyB0YWJsZS1sYXlvdXQ6IGF1dG87IHdpZHRoOiAxMDAlOyB3b3JkLWJyZWFrOiBicmVhay1hbGw7IH0gLnR0Y2MtZGF0YS10YWJsZSBjYXB0aW9uIHsgdGV4dC1hbGlnbjogbGVmdDsgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTsgZm9udC13ZWlnaHQ6IGJvbGQgfSAudHRjYy1kYXRhLXRhYmxlIHRib2R5IHsgZm9udC1mYW1pbHk6ICJIZWx2ZXRpY2EgTmV1ZSIsSGVsdmV0aWNhLEFyaWFsLHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogMTRweDsgY29sb3I6ICMzMzM7IH0gLnR0Y2MtZGF0YS10YWJsZSB0cjpudGgtY2hpbGQoZXZlbikgeyBiYWNrZ3JvdW5kLWNvbG9yOiBsaW5lbiB9IC50dGNjLWRhdGEtdGFibGUgdGggeyBib3JkZXI6IDFweCBzb2xpZCBncmF5OyBwYWRkaW5nOiAzcHg7IGJhY2tncm91bmQtY29sb3I6IGxpbmVuIH0gLnR0Y2MtZGF0YS10YWJsZSB0ZCB7IGJvcmRlcjogMXB4IHNvbGlkIGdyYXk7IHBhZGRpbmc6IDNweDsgfSA8L3N0eWxlPjxicj48ZGl2IGNsYXNzPSJ0dGNjLWRhdGEtdGFibGUiPjx0YWJsZT48Y2FwdGlvbj5TdGVwIGRlZmluaXRpb24gY2xhc3NlcyBhdmFpbGFibGUgZHVyaW5nIHRoaXMgc2NlbmFyaW88L2NhcHRpb24+PHRyPjx0aD5TdGVwIENsYXNzIENhbm9uaWNhbCBOYW1lPC90aD48L3RyPjx0Ym9keT48dHI+PHRkPmNvbS5leHBkLnRlc3QudHJhbnNwb3J0YXRpb24uZ2x1ZS5lc2JzcWwuRXNiRGF0YWJhc2VTdGVwczwvdGQ+PC90cj48dHI+PHRkPmNvbS5leHBkLnRlc3QudHJhbnNwb3J0YXRpb24uZ2x1ZS5sZWdhY3kuRGVmaW5pdGlvbnNEZXNrdG9wU3RlcHM8L3RkPjwvdHI+PHRyPjx0ZD5jb20uZXhwZC50ZXN0LnRyYW5zcG9ydGF0aW9uLmdsdWUubGVnYWN5LmNmaXQuRGVmaW5pdGlvbnNDZml0U3RlcHM8L3RkPjwvdHI+PHRyPjx0ZD5jb20uZXhwZC50ZXN0LnRyYW5zcG9ydGF0aW9uLmdsdWUubGVnYWN5LmVpZmEuRGVmaW5pdGlvbnNFaWZhU3RlcHM8L3RkPjwvdHI+PHRyPjx0ZD5jb20uZXhwZC50ZXN0LnRyYW5zcG9ydGF0aW9uLmdsdWUubGVnYWN5LmV4cG9ydC5EZWZpbml0aW9uc0V4cG9ydFN0ZXBzPC90ZD48L3RyPjx0cj48dGQ+Y29tLmV4cGQudGVzdC50cmFuc3BvcnRhdGlvbi5nbHVlLm1pc2MuRGVmaW5pdGlvbnNNaXNjU3RlcHM8L3RkPjwvdHI+PHRyPjx0ZD5jb20uZXhwZC50ZXN0LnRyYW5zcG9ydGF0aW9uLmdsdWUuc29hcC5Tb2FwRGF0YWxvYWRTdGVwczwvdGQ+PC90cj48L3Rib2R5PjwvdGFibGU+PC9kaXY+PGJyPg\u003d\u003d",
+                "mime_type": "text/html"
+              }
+            ],
+            "result": {
+              "duration": 16028593,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DefinitionsMiscSteps.doAfter(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42803491,
+              "status": "passed"
+            },
+            "line": 386,
+            "name": "using persistent storage, verify count in collection with name \"MC_M_ICA_ICT_COR_ICT-Complete\" is greater than \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MC_M_ICA_ICT_COR_ICT-Complete",
+                  "offset": 64
+                },
+                {
+                  "val": "greater",
+                  "offset": 98
+                },
+                {
+                  "val": "0",
+                  "offset": 112
+                },
+                {}
+              ],
+              "location": "DefinitionsMiscSteps.mongoVerifyCollectionCount(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47194501,
+              "status": "passed"
+            },
+            "line": 387,
+            "name": "using persistent storage, withdraw the following record set data from collection with name \"MC_M_ICA_ICT_COR_ICT-Complete\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MC_M_ICA_ICT_COR_ICT-Complete",
+                  "offset": 92
+                }
+              ],
+              "location": "DefinitionsMiscSteps.mongoWithdrawRecord(String,WithdrawToVar\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "caseName",
+                  "fromName"
+                ]
+              },
+              {
+                "cells": [
+                  "ICANum",
+                  "ICANum"
+                ]
+              },
+              {
+                "cells": [
+                  "ICTNum",
+                  "ICTNum"
+                ]
+              },
+              {
+                "cells": [
+                  "shipRef1",
+                  "shipRef1"
+                ]
+              },
+              {
+                "cells": [
+                  "shipRef2",
+                  "shipRef2"
+                ]
+              },
+              {
+                "cells": [
+                  "shipRef3",
+                  "shipRef3"
+                ]
+              },
+              {
+                "cells": [
+                  "MAWBNo1",
+                  "MAWBNo1"
+                ]
+              },
+              {
+                "cells": [
+                  "MAWBNo2",
+                  "MAWBNo2"
+                ]
+              },
+              {
+                "cells": [
+                  "OriginTpv",
+                  "OriginTpv"
+                ]
+              },
+              {
+                "cells": [
+                  "GtwyTpv",
+                  "GtwyTpv"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1842472,
+              "status": "passed"
+            },
+            "line": 399,
+            "name": "in Export \"{GtwyBrch}\" PUT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "PUT",
+                  "offset": 23
+                }
+              ],
+              "location": "DefinitionsExportSteps.blindScreenDataTableOperationVertical(String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "COMMAND",
+                  "MCCOST {ICTNum}"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 212967742,
+              "status": "passed"
+            },
+            "line": 401,
+            "name": "in Export \"{GtwyBrch}\" press \"F8\" : \"GOTO\" and expect \"MCCOST\" screen and message \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "F8",
+                  "offset": 30
+                },
+                {
+                  "val": "GOTO",
+                  "offset": 37
+                },
+                {
+                  "val": "MCCOST",
+                  "offset": 55
+                },
+                {
+                  "val": "8",
+                  "offset": 83
+                }
+              ],
+              "location": "DefinitionsExportSteps.pressFunctionKeyAndExpectScreenWithMsg(String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1401174,
+              "status": "passed"
+            },
+            "line": 405,
+            "name": "in Export \"{GtwyBrch}\" on the \"MCCOST\" screen EXPECT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "MCCOST",
+                  "offset": 31
+                },
+                {
+                  "val": "EXPECT",
+                  "offset": 46
+                }
+              ],
+              "location": "DefinitionsExportSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "POSTING_SFX",
+                  "01"
+                ]
+              },
+              {
+                "cells": [
+                  "SHIPMENT_TYPE",
+                  "ICT"
+                ]
+              },
+              {
+                "cells": [
+                  "WGT_ACT_AWB",
+                  "681 K"
+                ]
+              },
+              {
+                "cells": [
+                  "WGT_CHRG",
+                  "681 K"
+                ]
+              },
+              {
+                "cells": [
+                  "WGT_CHRG_ACM",
+                  "681 K"
+                ]
+              },
+              {
+                "cells": [
+                  "VOLUME",
+                  "30 CF"
+                ]
+              },
+              {
+                "cells": [
+                  "COST_ASGN_METHOD",
+                  "1"
+                ]
+              },
+              {
+                "cells": [
+                  "NUM_SHPMNTS",
+                  "3"
+                ]
+              },
+              {
+                "cells": [
+                  "ORIGIN_DESTINv001",
+                  "O"
+                ]
+              },
+              {
+                "cells": [
+                  "DESCRIPTIONv001",
+                  "NET PREPAID MB"
+                ]
+              },
+              {
+                "cells": [
+                  "AMOUNTv001",
+                  "715.05"
+                ]
+              },
+              {
+                "cells": [
+                  "CURRv001",
+                  "USD"
+                ]
+              },
+              {
+                "cells": [
+                  "ORIGIN_DESTINv002",
+                  "O"
+                ]
+              },
+              {
+                "cells": [
+                  "DESCRIPTIONv002",
+                  "AIRPORT TRANSFER"
+                ]
+              },
+              {
+                "cells": [
+                  "AMOUNTv002",
+                  "0.00"
+                ]
+              },
+              {
+                "cells": [
+                  "CURRv002",
+                  "USD"
+                ]
+              },
+              {
+                "cells": [
+                  "ORIGIN_DESTINv003",
+                  "D"
+                ]
+              },
+              {
+                "cells": [
+                  "DESCRIPTIONv003",
+                  "TOTAL COLLECT MB"
+                ]
+              },
+              {
+                "cells": [
+                  "AMOUNTv003",
+                  "0.00"
+                ]
+              },
+              {
+                "cells": [
+                  "CURRv003",
+                  "USD"
+                ]
+              },
+              {
+                "cells": [
+                  "ORIGIN_DESTINv004",
+                  "D"
+                ]
+              },
+              {
+                "cells": [
+                  "DESCRIPTIONv004",
+                  "USER ENTERED-1"
+                ]
+              },
+              {
+                "cells": [
+                  "AMOUNTv004",
+                  "0.00"
+                ]
+              },
+              {
+                "cells": [
+                  "CURRv004",
+                  "USD"
+                ]
+              },
+              {
+                "cells": [
+                  "ORIGIN_DESTINv005",
+                  "D"
+                ]
+              },
+              {
+                "cells": [
+                  "DESCRIPTIONv005",
+                  "USER ENTERED-2"
+                ]
+              },
+              {
+                "cells": [
+                  "AMOUNTv005",
+                  "0.00"
+                ]
+              },
+              {
+                "cells": [
+                  "CURRv005",
+                  "USD"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Replay cache cleared."
+            ],
+            "result": {
+              "duration": 154847,
+              "status": "passed"
+            },
+            "line": 434,
+            "name": "in Export \"{GtwyBrch}\" clear the replay cache",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                }
+              ],
+              "location": "DefinitionsExportSteps.clearExportReplayCache(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2215294,
+              "status": "passed"
+            },
+            "line": 435,
+            "name": "in Export \"{GtwyBrch}\" on the \"MCCOST\" screen PUT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "MCCOST",
+                  "offset": 31
+                },
+                {
+                  "val": "PUT",
+                  "offset": 46
+                }
+              ],
+              "location": "DefinitionsExportSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "AMOUNTv002",
+                  "5.85"
+                ]
+              },
+              {
+                "cells": [
+                  "DESCRIPTIONv004",
+                  "TEST DESTIN FEE"
+                ]
+              },
+              {
+                "cells": [
+                  "AMOUNTv004",
+                  "0.70"
+                ]
+              },
+              {
+                "cells": [
+                  "DESCRIPTIONv005",
+                  "TEST ADD\u0027L COST"
+                ]
+              },
+              {
+                "cells": [
+                  "AMOUNTv005",
+                  "0.50"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1069335119,
+              "status": "passed"
+            },
+            "line": 441,
+            "name": "in Export \"{GtwyBrch}\" press \"F1\" : \"ADD / MODIFY\" and expect \"MCCOST\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "F1",
+                  "offset": 30
+                },
+                {
+                  "val": "ADD / MODIFY",
+                  "offset": 37
+                },
+                {
+                  "val": "MCCOST",
+                  "offset": 63
+                }
+              ],
+              "location": "DefinitionsExportSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 665228457,
+              "status": "passed"
+            },
+            "line": 459,
+            "name": "in Export \"{GtwyBrch}\" press \"F1\" : \"ADD / MODIFY\" and expect \"MCCOST\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "F1",
+                  "offset": 30
+                },
+                {
+                  "val": "ADD / MODIFY",
+                  "offset": 37
+                },
+                {
+                  "val": "MCCOST",
+                  "offset": 63
+                }
+              ],
+              "location": "DefinitionsExportSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113636581,
+              "status": "passed"
+            },
+            "line": 461,
+            "name": "in Export \"{GtwyBrch}\" goto \"CFDATA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "CFDATA",
+                  "offset": 29
+                }
+              ],
+              "location": "DefinitionsExportSteps.gotoSpecifiedScreen(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1462570,
+              "status": "passed"
+            },
+            "line": 462,
+            "name": "in Export \"{GtwyBrch}\" on the \"CFDATA\" screen PUT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "CFDATA",
+                  "offset": 31
+                },
+                {
+                  "val": "PUT",
+                  "offset": 46
+                }
+              ],
+              "location": "DefinitionsExportSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "PORT_TO",
+                  "{Destination}"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83589442,
+              "status": "passed"
+            },
+            "line": 464,
+            "name": "in Export \"{GtwyBrch}\" on the \"CFDATA\" screen repeatedly press \"F2\" : \"FIND \" until the following data matches:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "CFDATA",
+                  "offset": 31
+                },
+                {
+                  "val": "F2",
+                  "offset": 64
+                },
+                {
+                  "val": "FIND ",
+                  "offset": 71
+                }
+              ],
+              "location": "DefinitionsExportSteps.exportLoopingScreenFunctionKeyOperationVerifyScreenData(String,String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "CFDATA_FIELDv001",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "CFDATA_FIELDv002",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1130467,
+              "status": "passed"
+            },
+            "line": 468,
+            "name": "in Export \"{GtwyBrch}\" on the \"CFDATA\" screen PUT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "CFDATA",
+                  "offset": 31
+                },
+                {
+                  "val": "PUT",
+                  "offset": 46
+                }
+              ],
+              "location": "DefinitionsExportSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "COMMAND",
+                  "MCHBCS X"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 167755536,
+              "status": "passed"
+            },
+            "line": 470,
+            "name": "in Export \"{GtwyBrch}\" press \"F8\" : \"GOTO\" and expect \"HBCOSA\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "F8",
+                  "offset": 30
+                },
+                {
+                  "val": "GOTO",
+                  "offset": 37
+                },
+                {
+                  "val": "HBCOSA",
+                  "offset": 55
+                }
+              ],
+              "location": "DefinitionsExportSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2184547,
+              "status": "passed"
+            },
+            "line": 471,
+            "name": "in Export \"{GtwyBrch}\" on the \"HBCOSA\" screen PUT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "HBCOSA",
+                  "offset": 31
+                },
+                {
+                  "val": "PUT",
+                  "offset": 46
+                }
+              ],
+              "location": "DefinitionsExportSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "COMMAND",
+                  "{ICTNum}"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 960609050,
+              "status": "passed"
+            },
+            "line": 473,
+            "name": "in Export \"{GtwyBrch}\" press \"F2\" : \"FIND (SMART)\" and expect \"MCHBCS\" screen and message \"922\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "F2",
+                  "offset": 30
+                },
+                {
+                  "val": "FIND (SMART)",
+                  "offset": 37
+                },
+                {
+                  "val": "MCHBCS",
+                  "offset": 63
+                },
+                {
+                  "val": "922",
+                  "offset": 91
+                }
+              ],
+              "location": "DefinitionsExportSteps.pressFunctionKeyAndExpectScreenWithMsg(String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1744364,
+              "status": "passed"
+            },
+            "line": 478,
+            "name": "in Export \"{GtwyBrch}\" on the \"MCHBCS\" screen EXPECT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "MCHBCS",
+                  "offset": 31
+                },
+                {
+                  "val": "EXPECT",
+                  "offset": 46
+                }
+              ],
+              "location": "DefinitionsExportSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "SHPMNT_REF_01",
+                  "{shipRef1}"
+                ]
+              },
+              {
+                "cells": [
+                  "SHH_CLIENT_REV_COL",
+                  "0.00"
+                ]
+              },
+              {
+                "cells": [
+                  "SHH_FRGHT_REV",
+                  "0.11"
+                ]
+              },
+              {
+                "cells": [
+                  "SHH_FRGHT_REV_C",
+                  "USD"
+                ]
+              },
+              {
+                "cells": [
+                  "SHH_FRGHT_REV_STL",
+                  "0.11"
+                ]
+              },
+              {
+                "cells": [
+                  "SHH_STL_CURR_DEST_2",
+                  "USD"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 530110825,
+              "status": "passed"
+            },
+            "line": 486,
+            "name": "in Export \"{GtwyBrch}\" press \"F4\" : \"NEXT SHIPMENT\" and expect \"MCHBCS\" screen and message \"922\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "F4",
+                  "offset": 30
+                },
+                {
+                  "val": "NEXT SHIPMENT",
+                  "offset": 37
+                },
+                {
+                  "val": "MCHBCS",
+                  "offset": 64
+                },
+                {
+                  "val": "922",
+                  "offset": 92
+                }
+              ],
+              "location": "DefinitionsExportSteps.pressFunctionKeyAndExpectScreenWithMsg(String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2161864,
+              "status": "passed"
+            },
+            "line": 487,
+            "name": "in Export \"{GtwyBrch}\" on the \"MCHBCS\" screen EXPECT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "MCHBCS",
+                  "offset": 31
+                },
+                {
+                  "val": "EXPECT",
+                  "offset": 46
+                }
+              ],
+              "location": "DefinitionsExportSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "SHPMNT_REF_02",
+                  "{shipRef2}"
+                ]
+              },
+              {
+                "cells": [
+                  "SHH_CLIENT_REV_COL",
+                  "0.00"
+                ]
+              },
+              {
+                "cells": [
+                  "SHH_FRGHT_REV",
+                  "0.15"
+                ]
+              },
+              {
+                "cells": [
+                  "SHH_FRGHT_REV_C",
+                  "USD"
+                ]
+              },
+              {
+                "cells": [
+                  "SHH_FRGHT_REV_STL",
+                  "0.15"
+                ]
+              },
+              {
+                "cells": [
+                  "SHH_STL_CURR_DEST_2",
+                  "USD"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273796815,
+              "status": "passed"
+            },
+            "line": 496,
+            "name": "in Export \"{GtwyBrch}\" press \"F4\" : \"NEXT SHIPMENT\" and expect \"MCHBCS\" screen and message \"922\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "F4",
+                  "offset": 30
+                },
+                {
+                  "val": "NEXT SHIPMENT",
+                  "offset": 37
+                },
+                {
+                  "val": "MCHBCS",
+                  "offset": 64
+                },
+                {
+                  "val": "922",
+                  "offset": 92
+                }
+              ],
+              "location": "DefinitionsExportSteps.pressFunctionKeyAndExpectScreenWithMsg(String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1777690,
+              "status": "passed"
+            },
+            "line": 497,
+            "name": "in Export \"{GtwyBrch}\" on the \"MCHBCS\" screen EXPECT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "MCHBCS",
+                  "offset": 31
+                },
+                {
+                  "val": "EXPECT",
+                  "offset": 46
+                }
+              ],
+              "location": "DefinitionsExportSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "SHPMNT_REF_03",
+                  "{shipRef3}"
+                ]
+              },
+              {
+                "cells": [
+                  "SHH_CLIENT_REV_COL",
+                  "0.00"
+                ]
+              },
+              {
+                "cells": [
+                  "SHH_FRGHT_REV",
+                  "900.00"
+                ]
+              },
+              {
+                "cells": [
+                  "SHH_FRGHT_REV_C",
+                  "USD"
+                ]
+              },
+              {
+                "cells": [
+                  "SHH_FRGHT_REV_STL",
+                  "900.00"
+                ]
+              },
+              {
+                "cells": [
+                  "SHH_STL_CURR_DEST_2",
+                  "USD"
+                ]
+              },
+              {
+                "cells": [
+                  "SHH_CMSN_FEE_AGNT",
+                  "27.00"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 558877680,
+              "status": "passed"
+            },
+            "line": 509,
+            "name": "in Export \"{GtwyBrch}\" press \"F1\" : \"ADD / MODIFY\" and expect \"MCHBCS\" screen and message \"7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "F1",
+                  "offset": 30
+                },
+                {
+                  "val": "ADD / MODIFY",
+                  "offset": 37
+                },
+                {
+                  "val": "MCHBCS",
+                  "offset": 63
+                },
+                {
+                  "val": "7",
+                  "offset": 91
+                }
+              ],
+              "location": "DefinitionsExportSteps.pressFunctionKeyAndExpectScreenWithMsg(String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118451144,
+              "status": "passed"
+            },
+            "line": 514,
+            "name": "in Export \"{GtwyBrch}\" goto \"REFS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "REFS",
+                  "offset": 29
+                }
+              ],
+              "location": "DefinitionsExportSteps.gotoSpecifiedScreen(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58931938,
+              "status": "passed"
+            },
+            "line": 515,
+            "name": "in Export \"{GtwyBrch}\" on the \"REFS\" screen repeatedly press \"F2\" : \"FIND (SMART)\" until the following data matches:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "REFS",
+                  "offset": 31
+                },
+                {
+                  "val": "F2",
+                  "offset": 62
+                },
+                {
+                  "val": "FIND (SMART)",
+                  "offset": 69
+                }
+              ],
+              "location": "DefinitionsExportSteps.exportLoopingScreenFunctionKeyOperationVerifyScreenData(String,String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "CLIENT_REF_TYPEv001",
+                  "ICDM"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 151830109,
+              "status": "passed"
+            },
+            "line": 520,
+            "name": "in Export \"{GtwyBrch}\" goto \"MCTRAN\" screen and expect message \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "MCTRAN",
+                  "offset": 29
+                },
+                {
+                  "val": "8",
+                  "offset": 64
+                }
+              ],
+              "location": "DefinitionsExportSteps.gotoSpecifiedScreenVerifyMessageId(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2010587144,
+              "status": "passed"
+            },
+            "line": 521,
+            "name": "in Export \"{GtwyBrch}\" press \"F1\" : \"POST\" and expect \"MCTRAN\" screen and message \"310\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "F1",
+                  "offset": 30
+                },
+                {
+                  "val": "POST",
+                  "offset": 37
+                },
+                {
+                  "val": "MCTRAN",
+                  "offset": 55
+                },
+                {
+                  "val": "310",
+                  "offset": 83
+                }
+              ],
+              "location": "DefinitionsExportSteps.pressFunctionKeyAndExpectScreenWithMsg(String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1572437,
+              "status": "passed"
+            },
+            "line": 522,
+            "name": "in Export \"{GtwyBrch}\" on the \"MCTRAN\" screen EXPECT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "MCTRAN",
+                  "offset": 31
+                },
+                {
+                  "val": "EXPECT",
+                  "offset": 46
+                }
+              ],
+              "location": "DefinitionsExportSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "POSTING_SFX",
+                  "01"
+                ]
+              },
+              {
+                "cells": [
+                  "COST_ASGN_METHOD",
+                  "1"
+                ]
+              },
+              {
+                "cells": [
+                  "FRGHT_REV",
+                  "900.00"
+                ]
+              },
+              {
+                "cells": [
+                  "XMTL_REV",
+                  "900.00"
+                ]
+              },
+              {
+                "cells": [
+                  "FRGHT_COST_XMTL",
+                  "227.00"
+                ]
+              },
+              {
+                "cells": [
+                  "ORIGIN_COSTS",
+                  "1.95"
+                ]
+              },
+              {
+                "cells": [
+                  "DESTIN_COSTS",
+                  "0.40"
+                ]
+              },
+              {
+                "cells": [
+                  "AGENT_COST",
+                  "27.00"
+                ]
+              },
+              {
+                "cells": [
+                  "XMTL_COST",
+                  "256.35"
+                ]
+              },
+              {
+                "cells": [
+                  "NET_PROFIT_XMTL",
+                  "643.65"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115091962,
+              "status": "passed"
+            },
+            "line": 538,
+            "name": "in Export \"{GtwyBrch}\" goto \"CFDATA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "CFDATA",
+                  "offset": 29
+                }
+              ],
+              "location": "DefinitionsExportSteps.gotoSpecifiedScreen(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2564916,
+              "status": "passed"
+            },
+            "line": 539,
+            "name": "in Export \"{GtwyBrch}\" on the \"CFDATA\" screen PUT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "CFDATA",
+                  "offset": 31
+                },
+                {
+                  "val": "PUT",
+                  "offset": 46
+                }
+              ],
+              "location": "DefinitionsExportSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "PORT_TO",
+                  "{Destination}"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40435282524,
+              "status": "passed"
+            },
+            "line": 541,
+            "name": "in Export \"{GtwyBrch}\" on the \"CFDATA\" screen repeatedly press \"F2\" : \"FIND \" until the following data matches:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "CFDATA",
+                  "offset": 31
+                },
+                {
+                  "val": "F2",
+                  "offset": 64
+                },
+                {
+                  "val": "FIND ",
+                  "offset": 71
+                }
+              ],
+              "location": "DefinitionsExportSteps.exportLoopingScreenFunctionKeyOperationVerifyScreenData(String,String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "CFDATA_FIELDv001",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "CFDATA_FIELDv002",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152143273,
+              "status": "passed"
+            },
+            "line": 545,
+            "name": "in Export \"{GtwyBrch}\" goto \"LOG\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "LOG",
+                  "offset": 29
+                }
+              ],
+              "location": "DefinitionsExportSteps.gotoSpecifiedScreen(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 262728,
+              "status": "passed"
+            },
+            "line": 546,
+            "name": "in Export \"{GtwyBrch}\" on the \"LOG\" screen Consol shows \"READY\" status",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "LOG",
+                  "offset": 31
+                },
+                {
+                  "val": "Consol",
+                  "offset": 43
+                },
+                {
+                  "val": "READY",
+                  "offset": 57
+                }
+              ],
+              "location": "DefinitionsExportSteps.verifyShipmentStatus(String,String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 154453037,
+              "status": "passed"
+            },
+            "line": 557,
+            "name": "in Export \"{GtwyBrch}\" goto \"HIST\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "HIST",
+                  "offset": 29
+                }
+              ],
+              "location": "DefinitionsExportSteps.gotoSpecifiedScreen(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1501191,
+              "status": "passed"
+            },
+            "line": 558,
+            "name": "in Export \"{GtwyBrch}\" on the \"HIST\" screen PUT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "HIST",
+                  "offset": 31
+                },
+                {
+                  "val": "PUT",
+                  "offset": 44
+                }
+              ],
+              "location": "DefinitionsExportSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "COMMAND",
+                  "{shipRef3}"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105807906,
+              "status": "passed"
+            },
+            "line": 560,
+            "name": "in Export \"{GtwyBrch}\" press \"F2\" : \"FIND (SMART)\" and expect \"HIST\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "F2",
+                  "offset": 30
+                },
+                {
+                  "val": "FIND (SMART)",
+                  "offset": 37
+                },
+                {
+                  "val": "HIST",
+                  "offset": 63
+                }
+              ],
+              "location": "DefinitionsExportSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1465746,
+              "status": "passed"
+            },
+            "line": 562,
+            "name": "in Export \"{GtwyBrch}\" on the \"HIST\" screen PUT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "HIST",
+                  "offset": 31
+                },
+                {
+                  "val": "PUT",
+                  "offset": 44
+                }
+              ],
+              "location": "DefinitionsExportSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "COMMAND",
+                  "CHANGEUSER MIS/BELLVOID"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50529354,
+              "status": "passed"
+            },
+            "line": 564,
+            "name": "in Export \"{GtwyBrch}\" press \"F8\" : \"GOTO\" and expect \"HIST\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "F8",
+                  "offset": 30
+                },
+                {
+                  "val": "GOTO",
+                  "offset": 37
+                },
+                {
+                  "val": "HIST",
+                  "offset": 55
+                }
+              ],
+              "location": "DefinitionsExportSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18807498,
+              "status": "passed"
+            },
+            "line": 565,
+            "name": "in Export \"{GtwyBrch}\" on the \"HIST\" screen PUT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "HIST",
+                  "offset": 31
+                },
+                {
+                  "val": "PUT",
+                  "offset": 44
+                }
+              ],
+              "location": "DefinitionsExportSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "STAT_CODE",
+                  "DLV"
+                ]
+              },
+              {
+                "cells": [
+                  "DATE_STAT",
+                  "X-1"
+                ]
+              },
+              {
+                "cells": [
+                  "TIME_STAT",
+                  "1000"
+                ]
+              },
+              {
+                "cells": [
+                  "FLIGHT_FM_STAT",
+                  "{Gateway}"
+                ]
+              },
+              {
+                "cells": [
+                  "FLIGHT_TO_STAT",
+                  "{Destination}"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 515543351,
+              "status": "passed"
+            },
+            "line": 571,
+            "name": "in Export \"{GtwyBrch}\" press \"F1\" : \"ADD / MODIFY\" and expect \"HIST\" screen and message \"6\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "F1",
+                  "offset": 30
+                },
+                {
+                  "val": "ADD / MODIFY",
+                  "offset": 37
+                },
+                {
+                  "val": "HIST",
+                  "offset": 63
+                },
+                {
+                  "val": "6",
+                  "offset": 89
+                }
+              ],
+              "location": "DefinitionsExportSteps.pressFunctionKeyAndExpectScreenWithMsg(String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3409864,
+              "status": "passed"
+            },
+            "line": 572,
+            "name": "in Export \"{GtwyBrch}\" on the \"HIST\" screen PUT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "HIST",
+                  "offset": 31
+                },
+                {
+                  "val": "PUT",
+                  "offset": 44
+                }
+              ],
+              "location": "DefinitionsExportSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "STAT_CODE",
+                  "POD"
+                ]
+              },
+              {
+                "cells": [
+                  "DATE_STAT",
+                  "X-1"
+                ]
+              },
+              {
+                "cells": [
+                  "TIME_STAT",
+                  "1000"
+                ]
+              },
+              {
+                "cells": [
+                  "FLIGHT_FM_STAT",
+                  "{Gateway}"
+                ]
+              },
+              {
+                "cells": [
+                  "FLIGHT_TO_STAT",
+                  "{Destination}"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 509017120,
+              "status": "passed"
+            },
+            "line": 578,
+            "name": "in Export \"{GtwyBrch}\" press \"F1\" : \"ADD / MODIFY\" and expect \"HIST\" screen and message \"6\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "F1",
+                  "offset": 30
+                },
+                {
+                  "val": "ADD / MODIFY",
+                  "offset": 37
+                },
+                {
+                  "val": "HIST",
+                  "offset": 63
+                },
+                {
+                  "val": "6",
+                  "offset": 89
+                }
+              ],
+              "location": "DefinitionsExportSteps.pressFunctionKeyAndExpectScreenWithMsg(String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1414395,
+              "status": "passed"
+            },
+            "line": 580,
+            "name": "in Export \"{GtwyBrch}\" on the \"HIST\" screen PUT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "HIST",
+                  "offset": 31
+                },
+                {
+                  "val": "PUT",
+                  "offset": 44
+                }
+              ],
+              "location": "DefinitionsExportSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "COMMAND",
+                  "CHANGEUSER EABATO/OSCAR"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37469374,
+              "status": "passed"
+            },
+            "line": 582,
+            "name": "in Export \"{GtwyBrch}\" press \"F8\" : \"GOTO\" and expect \"HIST\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "F8",
+                  "offset": 30
+                },
+                {
+                  "val": "GOTO",
+                  "offset": 37
+                },
+                {
+                  "val": "HIST",
+                  "offset": 55
+                }
+              ],
+              "location": "DefinitionsExportSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131326343,
+              "status": "passed"
+            },
+            "line": 585,
+            "name": "in Export \"{GtwyBrch}\" goto \"INV\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "INV",
+                  "offset": 29
+                }
+              ],
+              "location": "DefinitionsExportSteps.gotoSpecifiedScreen(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 983541,
+              "status": "passed"
+            },
+            "line": 592,
+            "name": "in Export \"{GtwyBrch}\" on the \"INV\" screen GET the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "INV",
+                  "offset": 31
+                },
+                {
+                  "val": "GET",
+                  "offset": 43
+                }
+              ],
+              "location": "DefinitionsExportSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "SEQ_INV_NUM",
+                  "INVNum3"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75920005,
+              "status": "passed"
+            },
+            "line": 594,
+            "name": "in Export \"{GtwyBrch}\" on the \"INV\" screen repeatedly press \"F2\" : \"FIND (SMART)\" until the following data matches:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "INV",
+                  "offset": 31
+                },
+                {
+                  "val": "F2",
+                  "offset": 61
+                },
+                {
+                  "val": "FIND (SMART)",
+                  "offset": 68
+                }
+              ],
+              "location": "DefinitionsExportSteps.exportLoopingScreenFunctionKeyOperationVerifyScreenData(String,String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "CFIT_DISPOSITION",
+                  "GOOD"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96632427,
+              "status": "passed"
+            },
+            "line": 600,
+            "name": "in Export \"{GtwyBrch}\" goto \"CFDATA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "CFDATA",
+                  "offset": 29
+                }
+              ],
+              "location": "DefinitionsExportSteps.gotoSpecifiedScreen(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1397559,
+              "status": "passed"
+            },
+            "line": 601,
+            "name": "in Export \"{GtwyBrch}\" on the \"CFDATA\" screen PUT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "CFDATA",
+                  "offset": 31
+                },
+                {
+                  "val": "PUT",
+                  "offset": 46
+                }
+              ],
+              "location": "DefinitionsExportSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "PORT_TO",
+                  "{Destination}"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81499113,
+              "status": "passed"
+            },
+            "line": 603,
+            "name": "in Export \"{GtwyBrch}\" on the \"CFDATA\" screen repeatedly press \"F2\" : \"FIND \" until the following data matches:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "CFDATA",
+                  "offset": 31
+                },
+                {
+                  "val": "F2",
+                  "offset": 64
+                },
+                {
+                  "val": "FIND ",
+                  "offset": 71
+                }
+              ],
+              "location": "DefinitionsExportSteps.exportLoopingScreenFunctionKeyOperationVerifyScreenData(String,String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "CFDATA_FIELDv001",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "CFDATA_FIELDv002",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176335995,
+              "status": "passed"
+            },
+            "line": 606,
+            "name": "in Export \"{GtwyBrch}\" goto \"LOG\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "LOG",
+                  "offset": 29
+                }
+              ],
+              "location": "DefinitionsExportSteps.gotoSpecifiedScreen(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4879995374,
+              "status": "passed"
+            },
+            "line": 610,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F1\" : \"SHIP LOG\" and expect \"sls00sMain\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F1",
+                  "offset": 32
+                },
+                {
+                  "val": "SHIP LOG",
+                  "offset": 39
+                },
+                {
+                  "val": "sls00sMain",
+                  "offset": 61
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1546029,
+              "status": "passed"
+            },
+            "line": 611,
+            "name": "in CFIT \"{CfitDestBrch}\" on the \"sls00sMain\" screen PUT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "sls00sMain",
+                  "offset": 33
+                },
+                {
+                  "val": "PUT",
+                  "offset": 52
+                }
+              ],
+              "location": "DefinitionsCfitSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "trace_No8",
+                  "{ICTNum}"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73797587040,
+              "status": "passed"
+            },
+            "line": 613,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F2\" : \"FIND (NEXT)\" and expect \"sls00sMain\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F2",
+                  "offset": 32
+                },
+                {
+                  "val": "FIND (NEXT)",
+                  "offset": 39
+                },
+                {
+                  "val": "sls00sMain",
+                  "offset": 64
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1126343,
+              "status": "passed"
+            },
+            "line": 614,
+            "name": "in CFIT \"{CfitDestBrch}\" on the \"sls00sMain\" screen EXPECT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "sls00sMain",
+                  "offset": 33
+                },
+                {
+                  "val": "EXPECT",
+                  "offset": 52
+                }
+              ],
+              "location": "DefinitionsCfitSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "invoice_Type",
+                  "8"
+                ]
+              },
+              {
+                "cells": [
+                  "ship_Type",
+                  "H"
+                ]
+              },
+              {
+                "cells": [
+                  "airport_Origin",
+                  "{Gateway}"
+                ]
+              },
+              {
+                "cells": [
+                  "airport_Dest",
+                  "{Destination}"
+                ]
+              },
+              {
+                "cells": [
+                  "client_No_Cnee",
+                  "{Consignee}"
+                ]
+              },
+              {
+                "cells": [
+                  "client_No_Shpr",
+                  "{DENShipper}"
+                ]
+              },
+              {
+                "cells": [
+                  "trace_No1",
+                  "{ICTNum}"
+                ]
+              },
+              {
+                "cells": [
+                  "trace_No4",
+                  "{shipRef3}"
+                ]
+              },
+              {
+                "cells": [
+                  "trace_No3",
+                  "{MAWBNo2}"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3144158,
+              "status": "passed"
+            },
+            "line": 624,
+            "name": "in CFIT \"{CfitDestBrch}\" on the \"sls00sMain\" screen GET the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "sls00sMain",
+                  "offset": 33
+                },
+                {
+                  "val": "GET",
+                  "offset": 52
+                }
+              ],
+              "location": "DefinitionsCfitSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "trace_No2",
+                  "MasterInv"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1744437,
+              "status": "passed"
+            },
+            "line": 626,
+            "name": "in CFIT \"{CfitDestBrch}\" on the \"sls00sMain\" screen PUT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "sls00sMain",
+                  "offset": 33
+                },
+                {
+                  "val": "PUT",
+                  "offset": 52
+                }
+              ],
+              "location": "DefinitionsCfitSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "invoice_No",
+                  "{MasterInv}"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2554957632,
+              "status": "passed"
+            },
+            "line": 628,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F2\" : \"FIND (NEXT)\" and expect \"sls00sMain\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F2",
+                  "offset": 32
+                },
+                {
+                  "val": "FIND (NEXT)",
+                  "offset": 39
+                },
+                {
+                  "val": "sls00sMain",
+                  "offset": 64
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 712889483,
+              "status": "passed"
+            },
+            "line": 629,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F6\" : \"SHIPMT HIST\" and expect \"slseShip_Head\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F6",
+                  "offset": 32
+                },
+                {
+                  "val": "SHIPMT HIST",
+                  "offset": 39
+                },
+                {
+                  "val": "slseShip_Head",
+                  "offset": 64
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2119668,
+              "status": "passed"
+            },
+            "line": 631,
+            "name": "in CFIT \"{CfitDestBrch}\" on the \"slseShip_Head\" screen PUT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "slseShip_Head",
+                  "offset": 33
+                },
+                {
+                  "val": "PUT",
+                  "offset": 55
+                }
+              ],
+              "location": "DefinitionsCfitSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "event_Code1",
+                  "AMD"
+                ]
+              },
+              {
+                "cells": [
+                  "post_Date1",
+                  "*"
+                ]
+              },
+              {
+                "cells": [
+                  "time_Text1",
+                  "*"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4902994824,
+              "status": "passed"
+            },
+            "line": 635,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F1\" : \"UPDATE\" and expect \"askimportctxcontroller\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F1",
+                  "offset": 32
+                },
+                {
+                  "val": "UPDATE",
+                  "offset": 39
+                },
+                {
+                  "val": "askimportctxcontroller",
+                  "offset": 59
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 747772621,
+              "status": "passed"
+            },
+            "line": 636,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"ENTER\" and expect \"slseShip_Head\" screen and message beginning with \" \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "ENTER",
+                  "offset": 32
+                },
+                {
+                  "val": "slseShip_Head",
+                  "offset": 51
+                },
+                {
+                  "val": " ",
+                  "offset": 101
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreenWithMsgBeginningWith(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 939139821,
+              "status": "passed"
+            },
+            "line": 638,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F8\" : \"Exit\" and expect \"sls00sMain\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F8",
+                  "offset": 32
+                },
+                {
+                  "val": "Exit",
+                  "offset": 39
+                },
+                {
+                  "val": "sls00sMain",
+                  "offset": 57
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51151770,
+              "status": "passed"
+            },
+            "line": 640,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F7\" : \"Other Keys\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F7",
+                  "offset": 32
+                },
+                {
+                  "val": "Other Keys",
+                  "offset": 39
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKey(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45849606,
+              "status": "passed"
+            },
+            "line": 641,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F7\" : \"Other Keys\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F7",
+                  "offset": 32
+                },
+                {
+                  "val": "Other Keys",
+                  "offset": 39
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKey(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55781710137,
+              "status": "passed"
+            },
+            "line": 642,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F6\" and expect \"ssconsolHead_Detail2\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F6",
+                  "offset": 32
+                },
+                {
+                  "val": "ssconsolHead_Detail2",
+                  "offset": 48
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreen(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1086559,
+              "status": "passed"
+            },
+            "line": 644,
+            "name": "in CFIT \"{CfitDestBrch}\" on the \"ssconsolHead_Detail2\" screen EXPECT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "ssconsolHead_Detail2",
+                  "offset": 33
+                },
+                {
+                  "val": "EXPECT",
+                  "offset": 62
+                }
+              ],
+              "location": "DefinitionsCfitSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "onfwd_Frt",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "onfwd_Hdl",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "cfs_Sum",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "comm_Sum",
+                  "27.00"
+                ]
+              },
+              {
+                "cells": [
+                  "delivery_Chgs",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "other_Sum",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "other1_Total",
+                  "0.70"
+                ]
+              },
+              {
+                "cells": [
+                  "other1_Cost",
+                  "0.70"
+                ]
+              },
+              {
+                "cells": [
+                  "other2_Total",
+                  "0.50"
+                ]
+              },
+              {
+                "cells": [
+                  "other2_Cost",
+                  "0.50"
+                ]
+              },
+              {
+                "cells": [
+                  "invoice_Total",
+                  "28.20"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 967452609,
+              "status": "passed"
+            },
+            "line": 656,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F3\" and expect \"ssconsolHAWB_Detail\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F3",
+                  "offset": 32
+                },
+                {
+                  "val": "ssconsolHAWB_Detail",
+                  "offset": 48
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreen(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 991679,
+              "status": "passed"
+            },
+            "line": 658,
+            "name": "in CFIT \"{CfitDestBrch}\" on the \"ssconsolHAWB_Detail\" screen EXPECT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "ssconsolHAWB_Detail",
+                  "offset": 33
+                },
+                {
+                  "val": "EXPECT",
+                  "offset": 61
+                }
+              ],
+              "location": "DefinitionsCfitSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "hawb_Hbl_No1",
+                  "{shipRef3}"
+                ]
+              },
+              {
+                "cells": [
+                  "fwd_Amt",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "fwd_Fee_Amt",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "cfs_Amt",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "comm_Amt",
+                  "27.00"
+                ]
+              },
+              {
+                "cells": [
+                  "hawb_Foreign",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "hawb_Curr_Cd",
+                  "USD"
+                ]
+              },
+              {
+                "cells": [
+                  "freight_Rev",
+                  "900.00"
+                ]
+              },
+              {
+                "cells": [
+                  "rev_Curr_Cd",
+                  "USD"
+                ]
+              },
+              {
+                "cells": [
+                  "freight_Ss",
+                  "900.00"
+                ]
+              },
+              {
+                "cells": [
+                  "frgt_Ss_Cd",
+                  "USD"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4550868703,
+              "status": "passed"
+            },
+            "line": 670,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F1\" : \"ADD MODIFY\" and expect \"ssconsolHAWB_Detail\" screen and message beginning with \"UPDATED\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F1",
+                  "offset": 32
+                },
+                {
+                  "val": "ADD MODIFY",
+                  "offset": 39
+                },
+                {
+                  "val": "ssconsolHAWB_Detail",
+                  "offset": 63
+                },
+                {
+                  "val": "UPDATED",
+                  "offset": 119
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreenWithMsgBeginningWith(String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2650829060,
+              "status": "passed"
+            },
+            "line": 671,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F8\" : \"BACK TO MAIN\" and expect \"ssconsolHead_Detail2\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F8",
+                  "offset": 32
+                },
+                {
+                  "val": "BACK TO MAIN",
+                  "offset": 39
+                },
+                {
+                  "val": "ssconsolHead_Detail2",
+                  "offset": 65
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1762729245,
+              "status": "passed"
+            },
+            "line": 672,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F6\" : \"POST SETTLMNT\" and expect \"ssconsolHead_Detail2\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F6",
+                  "offset": 32
+                },
+                {
+                  "val": "POST SETTLMNT",
+                  "offset": 39
+                },
+                {
+                  "val": "ssconsolHead_Detail2",
+                  "offset": 66
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15802141307,
+              "status": "passed"
+            },
+            "line": 675,
+            "name": "in CFIT \"{CfitDestBrch}\" perform auto-refresh operation until message begins with \"Transaction \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "Transaction ",
+                  "offset": 83
+                }
+              ],
+              "location": "DefinitionsCfitSteps.cfitPerformAutoRefreshOperationPositive(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 180000594265,
+              "status": "passed"
+            },
+            "line": 677,
+            "name": "sleep for \"180\" seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "180",
+                  "offset": 11
+                }
+              ],
+              "location": "DefinitionsMiscSteps.sleepForSeconds(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1136961063,
+              "status": "passed"
+            },
+            "line": 682,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F1\" : \"CORRECT SETTLMNT\" and expect \"SSCONSOLHEAD_DETAIL2\" screen and message beginning with \"Enter\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F1",
+                  "offset": 32
+                },
+                {
+                  "val": "CORRECT SETTLMNT",
+                  "offset": 39
+                },
+                {
+                  "val": "SSCONSOLHEAD_DETAIL2",
+                  "offset": 69
+                },
+                {
+                  "val": "Enter",
+                  "offset": 126
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreenWithMsgBeginningWith(String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1281713,
+              "status": "passed"
+            },
+            "line": 683,
+            "name": "in CFIT \"{CfitDestBrch}\" on the \"SSCONSOLHEAD_DETAIL2\" screen PUT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "SSCONSOLHEAD_DETAIL2",
+                  "offset": 33
+                },
+                {
+                  "val": "PUT",
+                  "offset": 62
+                }
+              ],
+              "location": "DefinitionsCfitSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "consol_Desc",
+                  "ICA_ICT Cfit Correction Automation"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5564730950,
+              "status": "passed"
+            },
+            "line": 685,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F1\" : \"ACCEPT\" and expect \"SSCONSOLHEAD_DETAIL2\" screen and message beginning with \"OPENED\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F1",
+                  "offset": 32
+                },
+                {
+                  "val": "ACCEPT",
+                  "offset": 39
+                },
+                {
+                  "val": "SSCONSOLHEAD_DETAIL2",
+                  "offset": 59
+                },
+                {
+                  "val": "OPENED",
+                  "offset": 116
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreenWithMsgBeginningWith(String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2052767,
+              "status": "passed"
+            },
+            "line": 687,
+            "name": "in CFIT \"{CfitDestBrch}\" on the \"SSCONSOLHEAD_DETAIL2\" screen PUT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "SSCONSOLHEAD_DETAIL2",
+                  "offset": 33
+                },
+                {
+                  "val": "PUT",
+                  "offset": 62
+                }
+              ],
+              "location": "DefinitionsCfitSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "other1_Total",
+                  "16.11"
+                ]
+              },
+              {
+                "cells": [
+                  "other1_Cost",
+                  "16.11"
+                ]
+              },
+              {
+                "cells": [
+                  "other2_Total",
+                  "18.58"
+                ]
+              },
+              {
+                "cells": [
+                  "other2_Cost",
+                  "18.58"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3749409182,
+              "status": "passed"
+            },
+            "line": 692,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F1\" : \"ADD MODIFY\" and expect \"SSCONSOLHEAD_DETAIL2\" screen and message beginning with \"UPDATED\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F1",
+                  "offset": 32
+                },
+                {
+                  "val": "ADD MODIFY",
+                  "offset": 39
+                },
+                {
+                  "val": "SSCONSOLHEAD_DETAIL2",
+                  "offset": 63
+                },
+                {
+                  "val": "UPDATED",
+                  "offset": 120
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreenWithMsgBeginningWith(String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174003207,
+              "status": "passed"
+            },
+            "line": 701,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F6\" : \"POST SETTLMNT\" and expect \"askimportctxcontroller\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F6",
+                  "offset": 32
+                },
+                {
+                  "val": "POST SETTLMNT",
+                  "offset": 39
+                },
+                {
+                  "val": "askimportctxcontroller",
+                  "offset": 66
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1885074227,
+              "status": "passed"
+            },
+            "line": 702,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"ENTER\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "ENTER",
+                  "offset": 32
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKey(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9843974062,
+              "status": "passed"
+            },
+            "line": 703,
+            "name": "in CFIT \"{CfitDestBrch}\" perform auto-refresh operation until message begins with \"SETTLEMENT CORRECTION PENDING, \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "SETTLEMENT CORRECTION PENDING, ",
+                  "offset": 83
+                }
+              ],
+              "location": "DefinitionsCfitSteps.cfitPerformAutoRefreshOperationPositive(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 930806,
+              "status": "passed"
+            },
+            "line": 704,
+            "name": "in CFIT \"{CfitDestBrch}\" on the \"ssconsolHead_Detail2\" screen EXPECT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "ssconsolHead_Detail2",
+                  "offset": 33
+                },
+                {
+                  "val": "EXPECT",
+                  "offset": 62
+                }
+              ],
+              "location": "DefinitionsCfitSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "consol_Desc",
+                  "ICA_ICT Cfit Correction Automation"
+                ]
+              },
+              {
+                "cells": [
+                  "other1_Total",
+                  "16.11"
+                ]
+              },
+              {
+                "cells": [
+                  "other2_Total",
+                  "18.58"
+                ]
+              },
+              {
+                "cells": [
+                  "comm_Sum",
+                  "27.00"
+                ]
+              },
+              {
+                "cells": [
+                  "invoice_Total",
+                  "61.69"
+                ]
+              },
+              {
+                "cells": [
+                  "screen_This",
+                  "2"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 289857797,
+              "status": "passed"
+            },
+            "line": 712,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F8\" : \"EXIT\" and expect \"CFITWHAT_NEXT\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F8",
+                  "offset": 32
+                },
+                {
+                  "val": "EXIT",
+                  "offset": 39
+                },
+                {
+                  "val": "CFITWHAT_NEXT",
+                  "offset": 57
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1017378621,
+              "status": "passed"
+            },
+            "line": 713,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F8\" : \"SHIP LOG\" and expect \"sls00sMain\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F8",
+                  "offset": 32
+                },
+                {
+                  "val": "SHIP LOG",
+                  "offset": 39
+                },
+                {
+                  "val": "sls00sMain",
+                  "offset": 61
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64688791,
+              "status": "passed"
+            },
+            "line": 714,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F8\" : \"EXIT\" and expect \"CfitMain\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F8",
+                  "offset": 32
+                },
+                {
+                  "val": "EXIT",
+                  "offset": 39
+                },
+                {
+                  "val": "CfitMain",
+                  "offset": 57
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107369824,
+              "status": "passed"
+            },
+            "line": 740,
+            "name": "in Export \"{GtwyBrch}\" goto \"CFDATA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "CFDATA",
+                  "offset": 29
+                }
+              ],
+              "location": "DefinitionsExportSteps.gotoSpecifiedScreen(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1568388,
+              "status": "passed"
+            },
+            "line": 741,
+            "name": "in Export \"{GtwyBrch}\" on the \"CFDATA\" screen PUT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "CFDATA",
+                  "offset": 31
+                },
+                {
+                  "val": "PUT",
+                  "offset": 46
+                }
+              ],
+              "location": "DefinitionsExportSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "PORT_TO",
+                  "{Origin}"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80658503,
+              "status": "passed"
+            },
+            "line": 743,
+            "name": "in Export \"{GtwyBrch}\" on the \"CFDATA\" screen repeatedly press \"F2\" : \"FIND \" until the following data matches:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "CFDATA",
+                  "offset": 31
+                },
+                {
+                  "val": "F2",
+                  "offset": 64
+                },
+                {
+                  "val": "FIND ",
+                  "offset": 71
+                }
+              ],
+              "location": "DefinitionsExportSteps.exportLoopingScreenFunctionKeyOperationVerifyScreenData(String,String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "CFDATA_FIELDv001",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "CFDATA_FIELDv002",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1133352,
+              "status": "passed"
+            },
+            "line": 746,
+            "name": "in Export \"{GtwyBrch}\" on the \"CFDATA\" screen PUT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "CFDATA",
+                  "offset": 31
+                },
+                {
+                  "val": "PUT",
+                  "offset": 46
+                }
+              ],
+              "location": "DefinitionsExportSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "PORT_TO",
+                  "{Destination}"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77989177,
+              "status": "passed"
+            },
+            "line": 748,
+            "name": "in Export \"{GtwyBrch}\" on the \"CFDATA\" screen repeatedly press \"F2\" : \"FIND \" until the following data matches:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "CFDATA",
+                  "offset": 31
+                },
+                {
+                  "val": "F2",
+                  "offset": 64
+                },
+                {
+                  "val": "FIND ",
+                  "offset": 71
+                }
+              ],
+              "location": "DefinitionsExportSteps.exportLoopingScreenFunctionKeyOperationVerifyScreenData(String,String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "CFDATA_FIELDv001",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "CFDATA_FIELDv002",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149210647,
+              "status": "passed"
+            },
+            "line": 751,
+            "name": "in Export \"{GtwyBrch}\" goto \"LOG\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "LOG",
+                  "offset": 29
+                }
+              ],
+              "location": "DefinitionsExportSteps.gotoSpecifiedScreen(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 262431326,
+              "status": "passed"
+            },
+            "line": 753,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F1\" and expect \"sls00sMain\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F1",
+                  "offset": 32
+                },
+                {
+                  "val": "sls00sMain",
+                  "offset": 48
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreen(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1247750,
+              "status": "passed"
+            },
+            "line": 754,
+            "name": "in CFIT \"{CfitDestBrch}\" on the \"sls00sMain\" screen PUT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "sls00sMain",
+                  "offset": 33
+                },
+                {
+                  "val": "PUT",
+                  "offset": 52
+                }
+              ],
+              "location": "DefinitionsCfitSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "invoice_No",
+                  "{MasterInv}"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 905377089,
+              "status": "passed"
+            },
+            "line": 756,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F2\" and expect \"sls00sMain\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F2",
+                  "offset": 32
+                },
+                {
+                  "val": "sls00sMain",
+                  "offset": 48
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreen(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1019979,
+              "status": "passed"
+            },
+            "line": 757,
+            "name": "in CFIT \"{CfitDestBrch}\" on the \"sls00sMain\" screen GET the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "sls00sMain",
+                  "offset": 33
+                },
+                {
+                  "val": "GET",
+                  "offset": 52
+                }
+              ],
+              "location": "DefinitionsCfitSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "trace_No6",
+                  "CorrectionInv"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63337759,
+              "status": "passed"
+            },
+            "line": 759,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F8\" : \"EXIT\" and expect \"CfitMain\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F8",
+                  "offset": 32
+                },
+                {
+                  "val": "EXIT",
+                  "offset": 39
+                },
+                {
+                  "val": "CfitMain",
+                  "offset": 57
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 240000785786,
+              "status": "passed"
+            },
+            "line": 765,
+            "name": "sleep for \"240\" seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "240",
+                  "offset": 11
+                }
+              ],
+              "location": "DefinitionsMiscSteps.sleepForSeconds(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81398230,
+              "status": "passed"
+            },
+            "line": 766,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F2\" : \"INVOICE ACCTG\" and expect \"IAS00SMAIN\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F2",
+                  "offset": 32
+                },
+                {
+                  "val": "INVOICE ACCTG",
+                  "offset": 39
+                },
+                {
+                  "val": "IAS00SMAIN",
+                  "offset": 66
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2377872,
+              "status": "passed"
+            },
+            "line": 767,
+            "name": "in CFIT \"{CfitDestBrch}\" on the \"ias00sMain\" screen PUT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "ias00sMain",
+                  "offset": 33
+                },
+                {
+                  "val": "PUT",
+                  "offset": 52
+                }
+              ],
+              "location": "DefinitionsCfitSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "item_Selected",
+                  "3"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112625567,
+              "status": "passed"
+            },
+            "line": 769,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F7\" : \"SELECT\" and expect \"ias02sOverlay\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F7",
+                  "offset": 32
+                },
+                {
+                  "val": "SELECT",
+                  "offset": 39
+                },
+                {
+                  "val": "ias02sOverlay",
+                  "offset": 59
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2103598,
+              "status": "passed"
+            },
+            "line": 772,
+            "name": "in CFIT \"{CfitDestBrch}\" on the \"ias02sOverlay\" screen PUT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "ias02sOverlay",
+                  "offset": 33
+                },
+                {
+                  "val": "PUT",
+                  "offset": 55
+                }
+              ],
+              "location": "DefinitionsCfitSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "invoice_No",
+                  "{MasterInv}"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 580813410,
+              "status": "passed"
+            },
+            "line": 774,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F7\" : \"SELECT\" and expect \"ias02sHeader\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F7",
+                  "offset": 32
+                },
+                {
+                  "val": "SELECT",
+                  "offset": 39
+                },
+                {
+                  "val": "ias02sHeader",
+                  "offset": 59
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20517959,
+              "status": "passed"
+            },
+            "line": 775,
+            "name": "in CFIT \"{CfitDestBrch}\" on the \"ias02sHeader\" screen EXPECT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "ias02sHeader",
+                  "offset": 33
+                },
+                {
+                  "val": "EXPECT",
+                  "offset": 54
+                }
+              ],
+              "location": "DefinitionsCfitSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "net_Advances",
+                  "0.00"
+                ]
+              },
+              {
+                "cells": [
+                  "net_This_Gl",
+                  "-61.69"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 598706,
+              "status": "passed"
+            },
+            "line": 779,
+            "name": "in CFIT \"{CfitDestBrch}\" on \"ias02sHeader\" place the cursor in the \"check_No1\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "ias02sHeader",
+                  "offset": 29
+                },
+                {
+                  "val": "check_No1",
+                  "offset": 68
+                }
+              ],
+              "location": "DefinitionsCfitSteps.setPositionOnScreen(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 296855032,
+              "status": "passed"
+            },
+            "line": 780,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F4\" : \"HELP (ViewJV)\" and expect \"ias02sJv_Head\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F4",
+                  "offset": 32
+                },
+                {
+                  "val": "HELP (ViewJV)",
+                  "offset": 39
+                },
+                {
+                  "val": "ias02sJv_Head",
+                  "offset": 66
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8272652,
+              "status": "passed"
+            },
+            "line": 781,
+            "name": "in CFIT \"{CfitDestBrch}\" on the \"ias02sJv_Head\" screen EXPECT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "ias02sJv_Head",
+                  "offset": 33
+                },
+                {
+                  "val": "EXPECT",
+                  "offset": 55
+                }
+              ],
+              "location": "DefinitionsCfitSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "S_Text1",
+                  "{MasterInv}   4738 196        0.00         0.70"
+                ]
+              },
+              {
+                "cells": [
+                  "S_Text2",
+                  "{MasterInv}   4738 196        0.00         0.50"
+                ]
+              },
+              {
+                "cells": [
+                  "S_Text3",
+                  "{MasterInv}   4300 196        0.00        27.00"
+                ]
+              },
+              {
+                "cells": [
+                  "S_Text4",
+                  "{ICTNum}  2110 196       28.20         0.00"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43497869,
+              "status": "passed"
+            },
+            "line": 787,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F8\" : \"EXIT\" and expect \"ias02sHeader\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F8",
+                  "offset": 32
+                },
+                {
+                  "val": "EXIT",
+                  "offset": 39
+                },
+                {
+                  "val": "ias02sHeader",
+                  "offset": 57
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 483657,
+              "status": "passed"
+            },
+            "line": 788,
+            "name": "in CFIT \"{CfitDestBrch}\" on \"ias02sHeader\" place the cursor in the \"check_No4\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "ias02sHeader",
+                  "offset": 29
+                },
+                {
+                  "val": "check_No4",
+                  "offset": 68
+                }
+              ],
+              "location": "DefinitionsCfitSteps.setPositionOnScreen(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 272426400,
+              "status": "passed"
+            },
+            "line": 789,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F4\" : \"HELP (ViewJV)\" and expect \"ias02sJv_Head\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F4",
+                  "offset": 32
+                },
+                {
+                  "val": "HELP (ViewJV)",
+                  "offset": 39
+                },
+                {
+                  "val": "ias02sJv_Head",
+                  "offset": 66
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9886057,
+              "status": "passed"
+            },
+            "line": 790,
+            "name": "in CFIT \"{CfitDestBrch}\" on the \"ias02sJv_Head\" screen EXPECT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "ias02sJv_Head",
+                  "offset": 33
+                },
+                {
+                  "val": "EXPECT",
+                  "offset": 55
+                }
+              ],
+              "location": "DefinitionsCfitSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "S_Text1",
+                  "{MasterInv}   4738 196        0.00        15.41"
+                ]
+              },
+              {
+                "cells": [
+                  "S_Text2",
+                  "{MasterInv}   4738 196        0.00        18.08"
+                ]
+              },
+              {
+                "cells": [
+                  "S_Text3",
+                  "{ICTNum}  2110 196       33.49         0.00"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46963918,
+              "status": "passed"
+            },
+            "line": 794,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F8\" : \"EXIT\" and expect \"ias02sHeader\" screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F8",
+                  "offset": 32
+                },
+                {
+                  "val": "EXIT",
+                  "offset": 39
+                },
+                {
+                  "val": "ias02sHeader",
+                  "offset": 57
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKeyAndExpectScreen(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78880991,
+              "status": "passed"
+            },
+            "line": 796,
+            "name": "in CFIT \"{CfitDestBrch}\" press \"F8\" : \"EXIT\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                },
+                {
+                  "val": "F8",
+                  "offset": 32
+                },
+                {
+                  "val": "EXIT",
+                  "offset": 39
+                }
+              ],
+              "location": "DefinitionsCfitSteps.pressFunctionKey(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2326293,
+              "status": "passed"
+            },
+            "line": 804,
+            "name": "in Export \"{GtwyBrch}\" PUT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "PUT",
+                  "offset": 23
+                }
+              ],
+              "location": "DefinitionsExportSteps.blindScreenDataTableOperationVertical(String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "COMMAND",
+                  "MCCOST {ICTNum}"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143278802,
+              "status": "passed"
+            },
+            "line": 806,
+            "name": "in Export \"{GtwyBrch}\" press \"F8\" : \"GOTO\" and expect \"MCCOST\" screen and message \"570\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "F8",
+                  "offset": 30
+                },
+                {
+                  "val": "GOTO",
+                  "offset": 37
+                },
+                {
+                  "val": "MCCOST",
+                  "offset": 55
+                },
+                {
+                  "val": "570",
+                  "offset": 83
+                }
+              ],
+              "location": "DefinitionsExportSteps.pressFunctionKeyAndExpectScreenWithMsg(String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1682208,
+              "status": "passed"
+            },
+            "line": 808,
+            "name": "in Export \"{GtwyBrch}\" on the \"MCCOST\" screen EXPECT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "MCCOST",
+                  "offset": 31
+                },
+                {
+                  "val": "EXPECT",
+                  "offset": 46
+                }
+              ],
+              "location": "DefinitionsExportSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "POSTING_SFX",
+                  "02"
+                ]
+              },
+              {
+                "cells": [
+                  "SHIPMENT_TYPE",
+                  "ICT"
+                ]
+              },
+              {
+                "cells": [
+                  "WGT_ACT_AWB",
+                  "681 K"
+                ]
+              },
+              {
+                "cells": [
+                  "WGT_CHRG",
+                  "681 K"
+                ]
+              },
+              {
+                "cells": [
+                  "WGT_CHRG_ACM",
+                  "681 K"
+                ]
+              },
+              {
+                "cells": [
+                  "VOLUME",
+                  "30 CF"
+                ]
+              },
+              {
+                "cells": [
+                  "COST_ASGN_METHOD",
+                  "1"
+                ]
+              },
+              {
+                "cells": [
+                  "NUM_SHPMNTS",
+                  "3"
+                ]
+              },
+              {
+                "cells": [
+                  "ORIGIN_DESTINv001",
+                  "O"
+                ]
+              },
+              {
+                "cells": [
+                  "DESCRIPTIONv001",
+                  "NET PREPAID MB"
+                ]
+              },
+              {
+                "cells": [
+                  "AMOUNTv001",
+                  "715.05"
+                ]
+              },
+              {
+                "cells": [
+                  "CURRv001",
+                  "USD"
+                ]
+              },
+              {
+                "cells": [
+                  "ORIGIN_DESTINv002",
+                  "O"
+                ]
+              },
+              {
+                "cells": [
+                  "DESCRIPTIONv002",
+                  "AIRPORT TRANSFER"
+                ]
+              },
+              {
+                "cells": [
+                  "AMOUNTv002",
+                  "5.85"
+                ]
+              },
+              {
+                "cells": [
+                  "CURRv002",
+                  "USD"
+                ]
+              },
+              {
+                "cells": [
+                  "ORIGIN_DESTINv003",
+                  "D"
+                ]
+              },
+              {
+                "cells": [
+                  "DESCRIPTIONv003",
+                  "TOTAL COLLECT MB"
+                ]
+              },
+              {
+                "cells": [
+                  "AMOUNTv003",
+                  "0.00"
+                ]
+              },
+              {
+                "cells": [
+                  "CURRv003",
+                  "USD"
+                ]
+              },
+              {
+                "cells": [
+                  "ORIGIN_DESTINv004",
+                  "D"
+                ]
+              },
+              {
+                "cells": [
+                  "DESCRIPTIONv004",
+                  "TEST DESTIN FEE"
+                ]
+              },
+              {
+                "cells": [
+                  "AMOUNTv004",
+                  "16.11"
+                ]
+              },
+              {
+                "cells": [
+                  "CURRv004",
+                  "USD"
+                ]
+              },
+              {
+                "cells": [
+                  "ORIGIN_DESTINv005",
+                  "D"
+                ]
+              },
+              {
+                "cells": [
+                  "DESCRIPTIONv005",
+                  "TEST ADD\u0027L COST"
+                ]
+              },
+              {
+                "cells": [
+                  "AMOUNTv005",
+                  "18.58"
+                ]
+              },
+              {
+                "cells": [
+                  "CURRv005",
+                  "USD"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114124379,
+              "status": "passed"
+            },
+            "line": 837,
+            "name": "in Export \"{GtwyBrch}\" goto \"MCTRAN\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "MCTRAN",
+                  "offset": 29
+                }
+              ],
+              "location": "DefinitionsExportSteps.gotoSpecifiedScreen(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1047959,
+              "status": "passed"
+            },
+            "line": 838,
+            "name": "in Export \"{GtwyBrch}\" on the \"MCTRAN\" screen EXPECT the following data:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                },
+                {
+                  "val": "MCTRAN",
+                  "offset": 31
+                },
+                {
+                  "val": "EXPECT",
+                  "offset": 46
+                }
+              ],
+              "location": "DefinitionsExportSteps.screenDataTableOperationVertical(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "POSTING_SFX",
+                  "02"
+                ]
+              },
+              {
+                "cells": [
+                  "ICCA_REASON",
+                  "ICA_ICT CFIT CORRECTION AUTOMATION"
+                ]
+              },
+              {
+                "cells": [
+                  "FRGHT_REV",
+                  "900.00"
+                ]
+              },
+              {
+                "cells": [
+                  "XMTL_REV",
+                  "900.00"
+                ]
+              },
+              {
+                "cells": [
+                  "FRGHT_COST_XMTL",
+                  "227.00"
+                ]
+              },
+              {
+                "cells": [
+                  "ORIGIN_COSTS",
+                  "1.95"
+                ]
+              },
+              {
+                "cells": [
+                  "DESTIN_COSTS",
+                  "11.57"
+                ]
+              },
+              {
+                "cells": [
+                  "AGENT_COST",
+                  "27.00"
+                ]
+              },
+              {
+                "cells": [
+                  "XMTL_COST",
+                  "267.52"
+                ]
+              },
+              {
+                "cells": [
+                  "NET_PROFIT_XMTL",
+                  "632.48"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148858123,
+              "status": "passed"
+            },
+            "line": 855,
+            "name": "in Export \"{GtwyBrch}\" terminate the session",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{GtwyBrch}",
+                  "offset": 11
+                }
+              ],
+              "location": "DefinitionsExportSteps.terminateAnExportSession(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 234225214,
+              "status": "passed"
+            },
+            "line": 856,
+            "name": "in CFIT \"{CfitDestBrch}\" terminate the session",
+            "match": {
+              "arguments": [
+                {
+                  "val": "{CfitDestBrch}",
+                  "offset": 9
+                }
+              ],
+              "location": "DefinitionsCfitSteps.terminateCfitSession(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Multimode"
+          },
+          {
+            "name": "@Correx"
+          },
+          {
+            "name": "@ICA_ICT_COR"
+          }
+        ]
+      }
+    ],
+    "name": "Multimode_ICA_ICT_Functional",
+    "description": "  \u003cpre\u003e\n\n  Origin - QA3/VRN\n  Gateway - QA1/DEN\n  Destination - QA9/MSY\n\n  NOTE: Include script to EXPECT in each screen as applicable\n\n  Steps:\n  1. Process 2 collect house air shipments from origin to destination (VRN--\u003eMSY). Rate and bill in local currency (EUR)\n  2. Process EHA shipment to INV\n  3. Finish the shipments by printing on AWBPRT\n  4. Confirm CFDATA is clear at Origin\n  5. Attach the 2 housebills to an ICA destined to gateway (DEN)\n  6. Print the MNFST\n  7. Post MCTRAN\n  8. Find on IC reference in CFDATA and make sure it is clear\n  9. Receive ShipLog at gateway (DEN) CFIT and post the consol settlement\n  10. Receive ShipLog at destination (MSY) CFIT and post the consol settlement\n  11. Find on origin IC reference in gateway (DEN) DCLOG screen\n  12. Enter receiving information and hit F1/Add Modify\n  13. Find on IC references in gateway (DEN) CFDATA and make sure it is clear\n  14. Process a prepaid truck  shipment (EHT) from gateway to final destination (DEN--\u003eMSY). Rate and bill in local currency (USD)\n  15. When processing EHT, in INV screen, enter \u0027N\u0027 to Post? field. Hit Add modify\n  16. Go to next screen and hit Add/modify\n  17. In gateway (DEN) consol, attach the original 2 HBLs (EHAs) and a new prepaid truck shipment (EHT) to an ICT destined to final destination (MSY)\n  18. Print MNFST\n  19. Process ICCOST, HBCOST and post MCTRAN\n  20. Make sure CFDATA is clear\n  21. Go back to HIST screen at the truck housebill level (EHT level)\n  22. Enter \u0027DLV\u0027 for the Evt field. Hit Add/Modify\n  23. Next, Enter \u0027POD\u0027 for the Evt field. Hit Add/Modify\n  24. Go to INV screen at the truck housebill level (EHT level)\n  25. Enter \u0027Y\u0027 in Post? field and hit Add/Modify\n  26. Make sure CFDATA is clear\n  27. Receive ShipLog at CFIT destination (MSY) and post the consol settlement\n\n\n  EHA1 collect VRN - MSY (rate and bill in local currency (EUR))\n  EHA2 collect VRN - MSY (rate and bill in local currency (EUR))\n  ICA1 - VRN to DEN\n  CFIT - POST consol settlement\n  EHT3 prepaid DEN - MSY (Rate and bill in local currency (USD))\n  DCT2 - DEN - MSY\n\n  \u003c/pre\u003e",
+    "id": "multimode-ica-ict-functional",
+    "keyword": "Feature",
+    "uri": "file:src/feature/Robots/Multimode/Functional/ICA_ICT_Functional.feature",
+    "tags": [
+      {
+        "name": "@Multimode",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
