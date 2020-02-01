@@ -1,0 +1,2 @@
+Error Message,Error Type,Mode,Project,Build Template
+The error message text from the JSON node,"If contained in Array X, Type X; If Contained in Array Y, Type Y; Else Type Project Code",Stripped from front of JSON file name before '_',Provided by user or properties file,Determined by URL location
