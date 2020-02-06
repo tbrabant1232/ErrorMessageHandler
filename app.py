@@ -5,7 +5,8 @@ import pandas as pd
 from datetime import date
 
 today = date.today()
-dateStr = today.strftime("%d-%b-%Y")
+# dateStr = today.strftime("%d-%b-%Y")
+dateStr = today.isoformat()
 csvfile = (dateStr + "raw.csv")
 inputFile = csvfile
 

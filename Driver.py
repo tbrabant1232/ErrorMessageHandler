@@ -8,7 +8,8 @@ import sys
 from datetime import date
 
 today = date.today()
-dateStr = today.strftime("%d-%b-%Y")
+# dateStr = today.strftime("%d-%b-%Y")
+dateStr = today.isoformat()
 csvfile = (dateStr + "raw.csv")
 
 def get_responses(paths: list, fetch: str) -> list:
@@ -78,6 +79,7 @@ def main():
 
     with open(csvfile, 'w') as file:
      writer = csv.writer(file, escapechar='\\', delimiter="\n", quoting=csv.QUOTE_NONE,)
+     writer.writerow(["Error"])
      writer.writerows(res)
     print("Created csv file", csvfile)
 

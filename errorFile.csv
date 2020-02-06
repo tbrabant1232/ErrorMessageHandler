@@ -1,0 +1,7 @@
+Error Message,Error Code
+Did not see screen (IAS02SHEADER) when expected; cannot continue - saw (IAS02SOVERLAY),ET
+com.expd.test.transportation.glue.legacy.exceptions.ScreenReplayException:,ET
+com.expd.test.transportation.glue.legacy.exceptions.ScreenLoopTimeoutException:,ET
+[ic_No] does not match actual value of [],ET
+com.expd.test.transportation.glue.legacy.exceptions.SessionFailureException:,ET
+Expected value [N3] in data map for screen field [TC_v001] does not match actual value of [S],EA
