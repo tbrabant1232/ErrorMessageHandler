@@ -15,18 +15,22 @@ with open(inputFile) as fin1, \
 
     reader1 = DictReader(fin1)
     reader2 = DictReader(fin2)
+    mydict = dict(reader2)
 
     writer = DictWriter(fout, fieldnames=reader2.fieldnames)
     writer.writeheader()
 
     for line1 in reader1:
         fin2.seek(0) # resets the reader2 iterator
+        outline = dict(mydict)
+        outline['Error Message'] = line1['Error']
+        outline['Error Code'] = 'MC'
         for line2 in reader2:
-            outline = dict(line2)
             if line2['Error Message'] in line1['Error']:
-                outline['Error Message'] = line1['Error']
                 outline['Error Code'] = line2['Error Code']
-            else:
-                outline['Error Message'] = line1['Error']
-                outline['Error Code'] = 'MC'
+                break
+                writer.writerow(outline)
+                break
         writer.writerow(outline)
+
+

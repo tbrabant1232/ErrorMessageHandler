@@ -3,5 +3,7 @@ Did not see screen (IAS02SHEADER) when expected; cannot continue - saw (IAS02SOV
 com.expd.test.transportation.glue.legacy.exceptions.ScreenReplayException:,ET
 com.expd.test.transportation.glue.legacy.exceptions.ScreenLoopTimeoutException:,ET
 [ic_No] does not match actual value of [],ET
+Did not see screen (REVIEW_D101) when expected; cannot continue - saw (REVIEWJOURNAL_R),EA
 com.expd.test.transportation.glue.legacy.exceptions.SessionFailureException:,ET
 Expected value [N3] in data map for screen field [TC_v001] does not match actual value of [S],EA
+com.expd.test.transportation.glue.legacy.exceptions.ScreenLoopTimeoutException:,ET
