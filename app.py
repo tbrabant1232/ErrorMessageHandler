@@ -7,7 +7,7 @@ from datetime import date
 today = date.today()
 # dateStr = today.strftime("%d-%b-%Y")
 dateStr = today.isoformat()
-csvfile = (dateStr + "raw.csv")
+csvfile = (dateStr + "processed.csv")
 inputFile = csvfile
 
 df = pd.read_csv(inputFile)

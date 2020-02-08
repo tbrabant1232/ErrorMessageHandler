@@ -1,9 +1,9 @@
-Error Message,Error Code
-Did not see screen (IAS02SHEADER) when expected; cannot continue - saw (IAS02SOVERLAY),ET
-com.expd.test.transportation.glue.legacy.exceptions.ScreenReplayException:,ET
-com.expd.test.transportation.glue.legacy.exceptions.ScreenLoopTimeoutException:,ET
-[ic_No] does not match actual value of [],ET
-Did not see screen (REVIEW_D101) when expected; cannot continue - saw (REVIEWJOURNAL_R),EA
-com.expd.test.transportation.glue.legacy.exceptions.SessionFailureException:,ET
-Expected value [N3] in data map for screen field [TC_v001] does not match actual value of [S],EA
-com.expd.test.transportation.glue.legacy.exceptions.ScreenLoopTimeoutException:,ET
+Error Message,Error Code,Severity
+Did not see screen (IAS02SHEADER) when expected; cannot continue - saw (IAS02SOVERLAY),Transportation Environment,1
+com.expd.test.transportation.glue.legacy.exceptions.ScreenReplayException:,Transportation Environment,2
+com.expd.test.transportation.glue.legacy.exceptions.ScreenLoopTimeoutException:,Transportation Environment,3
+[ic_No] does not match actual value of [],Transportation Environment,4
+Did not see screen (REVIEW_D101) when expected; cannot continue - saw (REVIEWJOURNAL_R),Accounting EIFA,5
+com.expd.test.transportation.glue.legacy.exceptions.SessionFailureException:,Transportation Environment,6
+Expected value [N3] in data map for screen field [TC_v001] does not match actual value of [S],Accounting EIFA,7
+com.expd.test.transportation.glue.legacy.exceptions.ScreenLoopTimeoutException:,Transportation Environment,8
